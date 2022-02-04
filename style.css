@@ -57,78 +57,78 @@
 /* Patua One */
 /* P  */
 .Livviche{
-   font-family: 'livvic';
+   font-family: 'livvic','sans-serif';
 }
 .Livvic{
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: bold;
   font-weight: 600;
   font-display: swap;
 }
 /* Title */
 .Faustina{
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   
 }
 /* P  */
 .Livvic1{
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: bold;
   font-weight: 700;
   font-display: swap;
 }
 .Livvictd{
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: bold;
   font-size: 18px;
   font-weight: 700;
   font-display: swap;
 }
-/* font-family: 'livvic';
+/* font-family: 'livvic','sans-serif';
 @font-face {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: bold;
     
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCr-x1S2hzjrlfXbeM-.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffw8Eesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCp-x1S2hzjrlfnbw.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: normal;
   font-weight: 500;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffm8Aesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlfft8cesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff08Yesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -141,7 +141,7 @@ html,
 body {
   font-size: 16px;
   color: #454545;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   vertical-align: baseline;
   line-height: 26px;
   font-weight: 500;
@@ -163,7 +163,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   color: #101010;
   margin: 0 0 26px;
   line-height: 1.2;
@@ -243,7 +243,7 @@ body.nav-expanded .offwrap {
 .bold-text {
   font-size: 20px;
   font-weight: bold;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .extra-bold {
   font-weight: 800 !important;
@@ -576,7 +576,7 @@ ul.services-list li a:before {
   position: absolute;
   right: 12px;
   top: 16px;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   color: #1c1b1b;
 }
 ul.services-list li a:hover,
@@ -665,7 +665,7 @@ button:focus {
   right: 0;
   color: #454545;
   line-height: 16px;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 12px;
 }
 .pagination-part .next-page:before {
@@ -716,7 +716,7 @@ blockquote:before {
   color: #0b70e1;
   padding-bottom: 0;
   display: inline-block;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-weight: 500;
   text-align: center;
   top: 0;
@@ -802,7 +802,7 @@ blockquote cite:before {
 .rs-carousel.nav-style1 .owl-nav .owl-next i:before,
 .rs-carousel.nav-style1 .owl-nav .owl-prev i:before {
   content: "\f138";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .rs-carousel.nav-style1 .owl-nav .owl-next {
   right: 30px;
@@ -841,7 +841,7 @@ blockquote cite:before {
 }
 .rs-carousel.nav-style2 .owl-nav .owl-prev i:before,
 .rs-carousel.nav-style2 .owl-nav .owl-next i:before {
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 22px;
 }
 .rs-carousel.nav-style2 .owl-nav .owl-prev:hover i,
@@ -1203,7 +1203,7 @@ blockquote cite:before {
 .readon.more-about:before {
   content: "\f113";
   position: absolute;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 10px;
   top: 17px;
   right: 24px;
@@ -1226,7 +1226,7 @@ blockquote cite:before {
 }
 .services-button a:after {
   content: "\f113";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 10px;
   position: relative;
   right: 0;
@@ -1275,7 +1275,7 @@ blockquote cite:before {
   font-size: 15px;
   font-weight: 500;
   color: #f2541b;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   transform: translateY(-50%);
   transition: all 0.2s ease;
 }
@@ -1298,7 +1298,7 @@ blockquote cite:before {
 }
 .blog-button a:after {
   content: "\f113";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 8px;
   position: relative;
   right: 0;
@@ -1337,7 +1337,7 @@ blockquote cite:before {
   padding-right: 25px;
   position: relative;
   z-index: 1;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-weight: 500;
   font-size: 15px;
   transition: all 0.3s;
@@ -1345,7 +1345,7 @@ blockquote cite:before {
 .blog-button.inner-blog a:after {
   content: "\f114";
   position: absolute;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 15px;
   top: 1px;
   right: 0;
@@ -1873,7 +1873,7 @@ blockquote cite:before {
   margin: 0 0 10px;
   display: block;
   line-height: 28px;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 14px;
   font-weight: 500;
   color: #03228F;
@@ -2222,7 +2222,7 @@ blockquote cite:before {
   z-index: 0;
   content: "\f058";
   font-weight: 500;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   color: #787cf2;
 }
 /* -----------------------
@@ -2394,7 +2394,7 @@ blockquote cite:before {
   padding: 0;
   color: #ffffff;
   position: relative;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
   color: #bbb;
@@ -4225,7 +4225,7 @@ body .search-modal .close:hover {
 .rs-slider.style1 .owl-nav .owl-next i:before,
 .rs-slider.style1 .owl-nav .owl-prev i:before {
   content: "\f112";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .rs-slider.style1 .owl-nav .owl-next:hover,
 .rs-slider.style1 .owl-nav .owl-prev:hover {
@@ -4316,7 +4316,7 @@ body .search-modal .close:hover {
 .rs-slider.style2 .owl-nav .owl-next i:before,
 .rs-slider.style2 .owl-nav .owl-prev i:before {
   content: "\f112";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .rs-slider.style2 .owl-nav .owl-next:hover,
 .rs-slider.style2 .owl-nav .owl-prev:hover {
@@ -4365,7 +4365,7 @@ body .search-modal .close:hover {
 .rs-slider.style3 .owl-nav .owl-next i:before,
 .rs-slider.style3 .owl-nav .owl-prev i:before {
   content: "\f112";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 18px;
   line-height: 18px;
   font-weight: 500;
@@ -4540,7 +4540,7 @@ body .search-modal .close:hover {
 }
 .rs-faq .faq-content .accordion .card .card-header .card-link:after {
   position: absolute;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   content: "\f068";
   right: 20px;
   top: 50%;
@@ -5056,7 +5056,7 @@ body .search-modal .close:hover {
   margin: 0 0 10px;
   display: block;
   line-height: 28px;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -5726,7 +5726,7 @@ body .search-modal .close:hover {
 }
 .rs-team.home14-team-style .team-top-section .slick-arrow:before {
   content: "\f115";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 18px;
   font-weight: 500;
 }
@@ -5817,7 +5817,7 @@ body .search-modal .close:hover {
   position: absolute;
   right: 130px;
   color: #0a0a0a;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   height: 100%;
   top: 250px;
   opacity: 0.02;
@@ -7271,7 +7271,7 @@ body .search-modal .close:hover {
 .rs-project.style1 .owl-nav .owl-next i:before,
 .rs-project.style1 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .rs-project.style1 .owl-nav .owl-next:hover,
 .rs-project.style1 .owl-nav .owl-prev:hover {
@@ -7373,7 +7373,7 @@ body .search-modal .close:hover {
 .rs-project.style2 .owl-nav .owl-next i:before,
 .rs-project.style2 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .rs-project.style2 .owl-nav .owl-next:hover,
 .rs-project.style2 .owl-nav .owl-prev:hover {
@@ -7501,7 +7501,7 @@ body .search-modal .close:hover {
 .rs-project.style3 .owl-nav .owl-next i:before,
 .rs-project.style3 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
 }
 .rs-project.style3 .owl-nav .owl-next:hover,
 .rs-project.style3 .owl-nav .owl-prev:hover {
@@ -7558,7 +7558,7 @@ body .search-modal .close:hover {
 .rs-project.style3.modify1 .owl-nav .owl-next i:before,
 .rs-project.style3.modify1 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 18px;
   font-weight: 500;
 }
@@ -8213,7 +8213,7 @@ body .search-modal .close:hover {
 .rs-project.style10 .owl-nav .owl-next i:before,
 .rs-project.style10 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 18px;
 }
 .rs-project.style10 .owl-nav .owl-next:hover,
@@ -9210,7 +9210,7 @@ body .search-modal .close:hover {
 .rs-testimonial.style4 .owl-nav .owl-next i:before,
 .rs-testimonial.style4 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 18px;
   font-weight: 500;
 }
@@ -9416,7 +9416,7 @@ body .search-modal .close:hover {
 .rs-testimonial.style7 .owl-nav .owl-next i:before,
 .rs-testimonial.style7 .owl-nav .owl-prev i:before {
   content: "\f115";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 18px;
   font-weight: 500;
 }
@@ -9643,7 +9643,7 @@ body .search-modal .close:hover {
 }
 .rs-testimonial.style10 .testi-top-section .slick-part .slick-arrow:before {
   content: "\f115";
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 18px;
   font-weight: 500;
 }
@@ -10307,7 +10307,7 @@ body .search-modal .close:hover {
   background-image: linear-gradient(90deg, #03228f 0%, #0e73e4 100%);
   border-radius: 50%;
   padding: 15px 28px 15px;
-  font-family: 'livvic';
+  font-family: 'livvic','sans-serif';
   font-size: 0;
   border: none;
 }
