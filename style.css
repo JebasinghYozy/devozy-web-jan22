@@ -67,7 +67,7 @@
 }
 /* Title */
 .Faustina{
-  font-family: 'Faustina';
+  font-family: 'sans-serif';
   
 }
 /* P  */
@@ -86,7 +86,7 @@
 }
 /* font-family: 'sans-serif';
 @font-face {
-  font-family: 'Faustina';
+  font-family: 'sans-serif';
   font-style: bold;
     
   font-display: swap;
@@ -665,7 +665,7 @@ button:focus {
   right: 0;
   color: #454545;
   line-height: 16px;
-  font-family: fontawesome;
+  font-family: 'sans-serif';
   font-size: 12px;
 }
 .pagination-part .next-page:before {
@@ -2222,7 +2222,7 @@ blockquote cite:before {
   z-index: 0;
   content: "\f058";
   font-weight: 500;
-  font-family: fontawesome;
+  font-family: 'sans-serif';
   color: #787cf2;
 }
 /* -----------------------
@@ -4540,7 +4540,7 @@ body .search-modal .close:hover {
 }
 .rs-faq .faq-content .accordion .card .card-header .card-link:after {
   position: absolute;
-  font-family: FontAwesome;
+  font-family: 'sans-serif';
   content: "\f068";
   right: 20px;
   top: 50%;
