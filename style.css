@@ -6930,11 +6930,12 @@ body .search-modal .close:hover {
   position: relative;
   text-align: center;
   margin: 0px 7px 0px 0px;
+  transform: scale(0.99);
 }
 .rs-pricing .pricing-table:hover {
   
   background: aliceblue;
-  
+  transform: scale(1);
   
 }
 
