@@ -6931,6 +6931,23 @@ body .search-modal .close:hover {
   text-align: center;
   margin: 0px 7px 0px 0px;
 }
+.rs-pricing .pricing-table:hover {
+  
+  background: aliceblue;
+  transform: scale(1.1);
+  
+}
+
+
+.rs-pricing .pricing-table1 {
+  padding: 27px 40px 0px 40px;
+  box-shadow: 0 0 30px #eee;
+  background: #dddddd;
+  border-radius: 10px 10px 10px 10px;
+  position: relative;
+  text-align: center;
+  margin: 0px 7px 0px 0px;
+}
 .rs-pricing .pricing-table .pricing-badge {
   top: 30px;
   left: 0px;
@@ -6945,10 +6962,8 @@ body .search-modal .close:hover {
   line-height: 1;
   z-index: 1;
 }
-.rs-pricing .pricing-table .pricing-badge.white-color-bg {
-  background: #ffffff;
-  color: #106eea;
-}
+
+
 
 
 .rs-pricing .pricing-table .pricing-badge.secondary-bg {
@@ -7304,6 +7319,15 @@ body .search-modal .close:hover {
   width: 100%;
   border-radius: 5px;
 }
+
+/* .rs-project.style2 .project-item .project-img:hover img{
+  
+  width: 150%;
+  height: 150%;
+  border-radius: 5px;
+  /* transform: scale(1.5); */
+/* } */
+
 .rs-project.style2 .project-item .project-content {
   position: absolute;
   width: 100%;
@@ -7391,6 +7415,7 @@ body .search-modal .close:hover {
 .rs-project.style2:hover .owl-nav .owl-prev {
   left: -50px;
   transition-delay: 0s;
+  
   visibility: visible;
   opacity: 1;
 }
@@ -7860,7 +7885,7 @@ body .search-modal .close:hover {
   color: #454545;
 }
 .rs-project.style6.modify3 .project-item:hover .project-img a img {
-  transform: scale(1.1);
+  transform: scale(1.5);
   border-radius: 5px;
 }
 .rs-project.style7 .project-item {
