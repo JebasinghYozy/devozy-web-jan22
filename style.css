@@ -84,6 +84,7 @@
   font-weight: 700;
   font-display: swap;
 }
+/* font-family: Arial, Verdana, sans-serif; */
 /* font-family: Arial, Verdana, sans-serif;
 @font-face {
   font-family: Arial, Verdana, sans-serif;
@@ -97,42 +98,42 @@
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(http://fonts.gstatic.com/s/Verdana/v8/rnCq-x1S2hzjrlffw8Eesg.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffw8Eesg.ttf) format('truetype');
 }
 @font-face {
   font-family: Arial, Verdana, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(http://fonts.gstatic.com/s/Verdana/v8/rnCp-x1S2hzjrlfnbw.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/livvic/v8/rnCp-x1S2hzjrlfnbw.ttf) format('truetype');
 }
 @font-face {
   font-family: Arial, Verdana, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url(http://fonts.gstatic.com/s/Verdana/v8/rnCq-x1S2hzjrlffm8Aesg.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffm8Aesg.ttf) format('truetype');
 }
 @font-face {
   font-family: Arial, Verdana, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-display: swap;
-  src: url(http://fonts.gstatic.com/s/Verdana/v8/rnCq-x1S2hzjrlfft8cesg.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlfft8cesg.ttf) format('truetype');
 }
 @font-face {
   font-family: Arial, Verdana, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
-  src: url(http://fonts.gstatic.com/s/Verdana/v8/rnCq-x1S2hzjrlff08Yesg.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff08Yesg.ttf) format('truetype');
 }
 @font-face {
   font-family: Arial, Verdana, sans-serif;
   font-style: normal;
   font-weight: 900;
   font-display: swap;
-  src: url(http://fonts.gstatic.com/s/Verdana/v8/rnCq-x1S2hzjrlff68Qesg.ttf) format('truetype');
+  src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff68Qesg.ttf) format('truetype');
 } */
 /* -----------------------------------
     01. General CSS
