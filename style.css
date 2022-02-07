@@ -5942,8 +5942,9 @@ body .search-modal .close:hover {
   padding: 50px 50px 50px 50px;
   background-color: #F3F7FF;
   border-radius: 10px 10px 10px 10px;
-  box-shadow: unset;
+  box-shadow: unset;  
   margin: 0px -10px 0px 0px;
+  max-height: 20px;
 }
 .rs-services.main-home.style3 .services-item .services-content {
   padding: unset;
@@ -6161,6 +6162,8 @@ body .search-modal .close:hover {
   background: #fc821b;
 }
 .rs-services.style3 .services-item {
+  width: auto;
+  max-height: 300px;
   padding: 50px 28px 50px 28px;
   background-color: #FFFFFF;
   border-radius: 10px 10px 10px 10px;
@@ -6173,12 +6176,12 @@ body .search-modal .close:hover {
   transition: all .3s ease;
 }
 .rs-services.style3 .services-item .services-icon .image-part .main-img {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
 }
 .rs-services.style3 .services-item .services-icon .image-part .hover-img {
-  height: 70px;
-  width: 70px;
+  height: 50px;
+  width: 50px;
   position: absolute;
   left: 0;
   top: 0;
@@ -6933,11 +6936,37 @@ body .search-modal .close:hover {
   transform: scale(0.99);
 }
 .rs-pricing .pricing-table:hover {
-  
-  background: aliceblue;
+  background-image: linear-gradient(70deg, #0b70e1 0%, #03228f 100%);
+  /* background: #0f3157; */
+  color: #FFFFFF;
   transform: scale(1);
   
 }
+.rs-pricing .pricing-table .pricing-table-price .pricing-table-bags .table-price-text1{
+  font-size: 52px;
+font-weight: 600;
+color: #101010;
+  
+}
+.rs-pricing .pricing-table:hover  .pricing-table-price .pricing-table-bags .table-price-text {
+  font-size: 52px;
+font-weight: 600;
+color: #fff;
+  
+}
+.rs-pricing .pricing-table:hover .pricing-table-price .pricing-table-bags .table-period {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  display: block;
+}
+.rs-pricing .pricing-table.h3 {
+  font-size: 25px;
+font-weight: 600;
+color: #101010;
+  
+}
+
 
 
 .rs-pricing .pricing-table1 {
@@ -6983,6 +7012,16 @@ body .search-modal .close:hover {
   font-size: 25px;
   font-weight: 600;
   color: #101010;
+}
+.rs-pricing .pricing-table .pricing-table-price .pricing-table-bags .table-price-text {
+  font-size: 52px;
+  font-weight: 600;
+  color: #101010;
+}
+.rs-pricing .pricing-table .pricing-table-price .pricing-table-bags .pricing-currency:hover {
+  font-size: 25px;
+  font-weight: 600;
+  color: #ffffff;
 }
 .rs-pricing .pricing-table .pricing-table-price .pricing-table-bags .table-price-text {
   font-size: 52px;
@@ -7096,6 +7135,8 @@ body .search-modal .close:hover {
   transition: all ease .4s;
 }
 .rs-technology.style2 .technology-wrap .rs-grid-figure .logo-img {
+  /* width: 20px;
+  height: 30px; */
   overflow: hidden;
 }
 .rs-technology.style2 .technology-wrap .rs-grid-figure .logo-img a {
@@ -7319,6 +7360,24 @@ body .search-modal .close:hover {
 .rs-project.style2 .project-item .project-img img {
   width: 100%;
   border-radius: 5px;
+  
+}
+.rs-project.style2 .project-item .project-img:hover{
+  width: 1000px;
+  position:inherit;
+  
+}
+.zoom {
+  
+  padding: 50px;    
+  transform: scale(1);
+  margin: 0 auto;
+}
+.zoom:hover {
+  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+#forumGroup{
+  
 }
 
 /* .rs-project.style2 .project-item .project-img:hover img{
