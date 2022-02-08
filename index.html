@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zxx">
+<!-- font-family: Arial, Verdana, sans-serif; -->
 
 <head>
     <script type="text/javascript">
@@ -11,15 +12,12 @@
             s1.charset = 'UTF-8';
             s1.setAttribute('crossorigin', '*');
             s0.parentNode.insertBefore(s1, s0);
-        })();
-
-        $(document.getElementById(rs - portfolio2)).hover(function () {
-            $(document.getElementById(rs - portfolio1)).show();
-        }, function () {
-            $(document.getElementById(rs - portfolio2)).hide();
-        });
-        
+        })();    
     </script>
+    <script src="js-image-zoom.js"></script>
+    <!-- Or from a CDN -->
+    <script src="https://unpkg.com/js-image-zoom/js-image-zoom.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-image-zoom/js-image-zoom.min.js"></script>
     <link type="text/css" rel="stylesheet" href="magiczoomplus/magiczoomplus.css" />
     <script type="text/javascript" src="magiczoomplus/magiczoomplus.js"></script>
     <!-- Start of Tawk.to Script-->
@@ -44,6 +42,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- favicon -->
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&display=swap" rel="stylesheet">
     <!-- <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav.png"> -->
     <link rel="shortcut icon" type="image/x-icon" href="img/yozy.png">
     <!-- Bootstrap v4.4.1 css -->
@@ -314,81 +331,85 @@
         </div>
 
 
-
-
         <!-- Banner Section End -->
 
+    </div>
+    <!-- About Section Start -->
+    <div id="rs-Challenges" class="rs-about style5">
+        <div class="about-bg pt-120 pb-120 md-pt-80 md-pb-80">
+            <div class="container">
+                <div class="sec-title2 text-center Faustina mb-45">
+                    <!-- <span class="sub-text">Pricing</span> -->
+                    <h2 class="title">
+                        Challenges !!!
+                    </h2>
+                    <div class="heading-line">
 
-        <!-- About Section Start -->
-        <div id="rs-Challenges" class="rs-about style5">
-            <div class="about-bg pt-120 pb-120 md-pt-80 md-pb-80">
-                <div class="container">
-                    <div class="sec-title2 text-center Faustina mb-45">
-                        <!-- <span class="sub-text">Pricing</span> -->
-                        <h2 class="title">
-                            Challenges !!!
-                        </h2>
-                        <div class="heading-line">
-
+                    </div>
+                </div>
+                <div>
+                    <p class="desc desc3">
+                        In digital era, any new application development needs a proper DEVOPS system to
+                        deploy/ship
+                        the software weekly, daily or multiple times a day. But it takes time to setup a
+                        proper
+                        DEVOPS system and need expertise. There are many tools available in the market and
+                        selection
+                        of tools is a challenge in this case. Hence the Project team end up building &
+                        maintaining a
+                        DEVOPS system rather than focusing the actual development
+                    </p>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-5 md-mb-50">
+                        <div class="image-part">
+                            <!-- <img src="assets/images/about/style3/brand-visual.png" alt=""> -->
+                            <img src="assets/1.png" alt="About">
+                        </div>
+                        <div class="about-animate">
+                            <img class="dance" src="assets/images/about/style3/2.png" alt="About">
                         </div>
                     </div>
-                    <div>
-                        <p class="desc desc3">
-                            In digital era, any new application development needs a proper DEVOPS system to deploy/ship
-                            the software weekly, daily or multiple times a day. But it takes time to setup a proper
-                            DEVOPS system and need expertise. There are many tools available in the market and selection
-                            of tools is a challenge in this case. Hence the Project team end up building & maintaining a
-                            DEVOPS system rather than focusing the actual development
-                        </p>
-                    </div>
-                    <div class="row align-items-center">
-                        <div class="col-lg-5 md-mb-50">
-                            <div class="image-part">
-                                <!-- <img src="assets/images/about/style3/brand-visual.png" alt=""> -->
-                                <img src="assets/1.png" alt="About">
+                    <div class="col-lg-7 pl-50 md-pl-15">
+                        <div class="slider-content">
+                            <div class="sec-title5 mb-20">
+                                <!-- <h2 class="title title2 pb-17">Brand Positioning</h2> -->
+                                <p class="desc2"> <b>Typical challenges Enterprises faces, while building a
+                                        DEVOPS
+                                        system:</b></p>
                             </div>
-                            <div class="about-animate">
-                                <img class="dance" src="assets/images/about/style3/2.png" alt="About">
-                            </div>
+                            <ul class="check-square">
+                                <li>Choice of tools and Shortage of tools knowledge</li>
+                                <li>Lack of knowledge to integrate tools</li>
+                                <li>Build and Manage the Continues integration environments & CICD pipeline
+                                </li>
+                                <li>Demands specialized team of DEVOPS engineers</li>
+                                <li>Duplicate environments and lack of re-usability</li>
+                                <li>Dependency with Deployment team for managing the DEVOPS system</li>
+                                <li>Increase in project cost in turn affects ROI</li>
+                                <li>Turnaround time to spin-up a new test environment</li>
+                                <li>Multiple admin console & login accounts</li>
+                            </ul>
                         </div>
-                        <div class="col-lg-7 pl-50 md-pl-15">
-                            <div class="slider-content">
-                                <div class="sec-title5 mb-20">
-                                    <!-- <h2 class="title title2 pb-17">Brand Positioning</h2> -->
-                                    <p class="desc2"> <b>Typical challenges Enterprises faces, while building a DEVOPS
-                                            system:</b></p>
-                                </div>
-                                <ul class="check-square">
-                                    <li>Choice of tools and Shortage of tools knowledge</li>
-                                    <li>Lack of knowledge to integrate tools</li>
-                                    <li>Build and Manage the Continues integration environments & CICD pipeline</li>
-                                    <li>Demands specialized team of DEVOPS engineers</li>
-                                    <li>Duplicate environments and lack of re-usability</li>
-                                    <li>Dependency with Deployment team for managing the DEVOPS system</li>
-                                    <li>Increase in project cost in turn affects ROI</li>
-                                    <li>Turnaround time to spin-up a new test environment</li>
-                                    <li>Multiple admin console & login accounts</li>
-                                </ul>
-                            </div>
 
-                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
     <!-- About Section End -->
-
+<!-- 
     <div class="rs-services style5 pt-120 md-pt-80">
         <div class="container">
             <h2 class="title testi-title ">
-                
+
             </h2>
             <div class="row">
                 <div class="col-lg-4 md-mb-30">
                     <div class="services-item">
                         <div class="services-icon">
-                           <img src="assets\images\services\style2\main-img\1.png" alt="Images"> 
+                            <img src="assets\images\services\style2\main-img\1.png" alt="Images">
                         </div>
                         <div class="services-content">
                             <h3 class="services-title"><a href="web-development.html">Rapid on-Board</a></h3>
@@ -402,15 +423,16 @@
                 <div class="col-lg-4 md-mb-30">
                     <div class="services-item">
                         <div class="services-icon">
-                           <img src="svg-icons/rocket.svg" alt="Images"> 
+                            <img src="svg-icons/rocket.svg" alt="Images">
                         </div>
                         <div class="services-content">
                             <h3 class="services-title"><a href="web-development.html">Jump start and accelerate
 
-                            </a></h3>
+                                </a></h3>
                             <p class="services-desc">
                                 Application deployment with pre-built pipelines (DEVOPS as a
-                                    Service) via centrally managed web console (10x time faster than conventional model)
+                                Service) via centrally managed web console (10x time faster than conventional
+                                model)
                             </p>
                         </div>
                     </div>
@@ -418,10 +440,11 @@
                 <div class="col-lg-4">
                     <div class="services-item">
                         <div class="services-icon">
-                           <img src="assets\images\services\style6\1.png" alt="Images"> 
+                            <img src="assets\images\services\style6\1.png" alt="Images">
                         </div>
                         <div class="services-content">
-                            <h3 class="services-title"><a href="web-development.html">Several dashboards</a></h3>
+                            <h3 class="services-title"><a href="web-development.html">Several dashboards</a>
+                            </h3>
                             <p class="services-desc">
                                 To monitor health of the integration environments, track the
                                 progress of application deployments, errors, self-heal, reports and other useful
@@ -430,9 +453,9 @@
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
         </div>
-    </div>
+    </div> -->
     <!-- Services Section Start -->
     <div class="rs-services style3  pt-110 pb-120 md-pt-75 md-pb-80">
         <div class="container">
@@ -479,7 +502,8 @@
                             <div class="services-desc">
                                 <p>
                                     Application deployment with pre-built pipelines (DEVOPS as a
-                                    Service) via centrally managed web console (10x time faster than conventional model)
+                                    Service) via centrally managed web console (10x time faster than
+                                    conventional model)
                                 </p>
                             </div>
 
@@ -501,7 +525,8 @@
                             <div class="services-desc">
                                 <p>
                                     To monitor health of the integration environments, track the
-                                    progress of application deployments, errors, self-heal, reports and other useful
+                                    progress of application deployments, errors, self-heal, reports and other
+                                    useful
                                     statistics</p>
                             </div>
 
@@ -757,7 +782,24 @@
     </div> -->
     <!-- Services Section End -->
 
-
+    <div class="rs-cta style1 bg7 pt-70 pb-70">
+        <div class="container">
+            <div class="cta-wrap">
+                <div class="row align-items-center">
+                    <div class="col-lg-9 col-md-12 md-pr-0 pr-148 md-pl-15 md-mb-30 md-center">
+                        <div class="title-wrap">
+                            <h2 class="epx-title">Do you want Demos ?</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 text-righ">
+                        <div class="button-wrapt md-center">
+                            <a class="readon learn-more" href="https://wa.me/919894039246?text=Sir I want to Devozy Demos" target="_blank">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Services Section Start -->
     <div id="rs-Principles" class="rs-services style3 modify2">
@@ -789,7 +831,8 @@
                             </div>
                             <div class="services-desc">
                                 <p>
-                                    Cloud Agnostic Multi-cloud can be used to orchestrate application deployment.
+                                    Cloud Agnostic Multi-cloud can be used to orchestrate application
+                                    deployment.
                                 </p>
                             </div>
                         </div>
@@ -810,7 +853,8 @@
                             <div class="services-desc">
                                 <p>
                                     Client Agnostic
-                                    Can be shipped or installed in any environment (few hours to setup the platform)
+                                    Can be shipped or installed in any environment (few hours to setup the
+                                    platform)
                                 </p>
                             </div>
                         </div>
@@ -831,7 +875,8 @@
                             </div>
                             <div class="services-desc">
                                 <p>
-                                    Automation of Automation provide single gateway to perform application deployments
+                                    Automation of Automation provide single gateway to perform application
+                                    deployments
                                     and manage DEVOPS tools .
                                 </p>
                             </div>
@@ -853,7 +898,8 @@
                             <div class="services-desc">
                                 <p>
                                     Open-Source Tools
-                                    Built completely using open-source technologies and DEVOPS tools to automate end to
+                                    Built completely using open-source technologies and DEVOPS tools to automate
+                                    end to
                                     end
                                 </p>
                             </div>
@@ -894,7 +940,7 @@
 
 
 
-    <div class="rs-technology white-color-bg pt-120 pb-120 md-pt-80 md-pb-80">
+    <!-- <div class="rs-technology white-color-bg pt-120 pb-120 md-pt-80 md-pb-80">
         <div class="container">
             <div class="sec-title2 text-center Faustina mb-50">
                 <h2 class="title testi-title">
@@ -1073,7 +1119,7 @@
             </div>
 
         </div>
-    </div>
+    </div> -->
 
 
 
@@ -1122,7 +1168,7 @@
                 <div class="partner-item mb-40">
                     <div class="logo-img">
                         <a href="https://rstheme.com">
-                            <img class="focus-logo" src="img/AS.png" alt="">
+                            <img class="focus-logo" src="img/Sonarqube.png" alt="">
                             <!-- <img class="main-logo" src="img/sonarqube.png" alt=""> -->
                         </a>
                     </div>
@@ -1216,7 +1262,17 @@
                         </a>
                     </div>
                 </div>
-
+                <div class="partner-item">
+                    <div class="logo-img">
+                        <a href="https://rstheme.com">
+                            <img class="focus-logo" src="img/postgresql-logo.png" alt="">
+                            <!-- <img class="main-logo"
+                    src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg"
+                    alt=""> -->
+                        </a>
+                    </div>
+                </div>
+               
                 <div class="partner-item">
                     <div class="logo-img">
                         <a href="https://rstheme.com">
@@ -1247,17 +1303,8 @@
                         </a>
                     </div>
                 </div>
-                <div class="partner-item">
-                    <div class="logo-img">
-                        <a href="https://rstheme.com">
-                            <img class="focus-logo" src="img/postgresql-logo.png" alt="">
-                            <!-- <img class="main-logo"
-                    src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Node.js_logo_2015.svg"
-                    alt=""> -->
-                        </a>
-                    </div>
-                </div>
-                <div class="partner-item mb-40">
+                
+                <div class="partner-item ">
                     <div class="logo-img">
                         <a href="https://rstheme.com">
                             <img class="focus-logo" src="img/react-logo-removebg-preview.png" alt="">
@@ -1266,8 +1313,11 @@
                                     alt=""> -->
                         </a>
                     </div>
+                    
                 </div>
-
+               
+               
+                
             </div>
         </div>
     </div>
@@ -1304,7 +1354,8 @@
                             <div class="services-desc">
                                 <p>
                                     Multi-tenancy model (unit / group / team level access controls)
-                                    A single instance of the software and its supporting infrastructure serves multiple
+                                    A single instance of the software and its supporting infrastructure serves
+                                    multiple
                                     customers
                                 </p>
                             </div>
@@ -1349,7 +1400,8 @@
                             </div>
                             <div class="services-desc">
                                 <p>
-                                    Tying together of systems, tools, and software for seamless processes around email
+                                    Tying together of systems, tools, and software for seamless processes around
+                                    email
                                     marketing.
                                 </p>
                             </div>
@@ -1372,7 +1424,8 @@
                             </div>
                             <div class="services-desc">
                                 <p>
-                                    Dashboard that makes accessing current data easy and fast. Displays that can be
+                                    Dashboard that makes accessing current data easy and fast. Displays that can
+                                    be
                                     customized and categorized to meet a user's specific needs.
                                 </p>
                             </div>
@@ -1395,11 +1448,14 @@
                             </div>
                             <div class="services-desc">
                                 <p>
-                                    Acts as an intermediary between a protected Local Area Network (firewall) and the
-                                    Internet. Some home networks, corporate intranets, and Internet Service Providers
+                                    Acts as an intermediary between a protected Local Area Network (firewall)
+                                    and the
+                                    Internet. Some home networks, corporate intranets, and Internet Service
+                                    Providers
                                     (ISPs) use proxy servers.
                                 </p>
-                                <p>Gest etiam processus dynamicus, qui sequitur mutationem consuetudium lectorum.</p>
+                                <p>Gest etiam processus dynamicus, qui sequitur mutationem consuetudium
+                                    lectorum.</p>
                             </div>
 
                         </div>
@@ -1420,7 +1476,8 @@
                             </div>
                             <div class="services-desc">
                                 <p>
-                                    Cloud Services can also integrate with other systems to increase the productivity of
+                                    Cloud Services can also integrate with other systems to increase the
+                                    productivity of
                                     your business.
                                     a solution hosted in-house and usually supported by a third-party.
                                 </p>
@@ -1443,8 +1500,10 @@
                             </div>
                             <div class="services-desc">
                                 <p>
-                                    Single sign-on (SSO) is an authentication method that enables users to securely
-                                    authenticate with multiple applications and websites by using just one set of
+                                    Single sign-on (SSO) is an authentication method that enables users to
+                                    securely
+                                    authenticate with multiple applications and websites by using just one set
+                                    of
                                     credentials.
                                 </p>
                             </div>
@@ -1501,14 +1560,25 @@
             </div>
         </div>
     </div>
+    <!-- Demos -->
+   
+    <!-- End -->
     <!-- <div>
         <a href="assets/images/DeV-Screenshots/1.1.Main Dash.png" class="MagicZoom" data-options="zoomPosition: top; expand: off;"><img src="assets/images/DeV-Screenshots/1.1.Main Dash.png" /></a>
       
     </div> -->
     <!-- Screencast -->
-    <div id="rs-portfolio1" class="rs-project white-bg style2 ">
+
+    <!-- <div class="sec-title2 text-center mb-45">
+                <span class="sub-text style-bg white-color">Projects</span>
+                <h2 class="title title2 white-color">
+                  Our product Screenshots
+                </h2>
+            </div> -->
+   
+    <div id="slider2" class="rs-project white-bg style2 ">
         <div class="container">
-            <div class="sec-title2 text-center mb-45">
+            <div class="sec-title2 text-center mb-45 mt-45">
                 <!-- <span class="sub-text gold-color">Services</span> -->
                 <h2 class="title title2 Faustina">
                     Screenshots
@@ -1518,34 +1588,31 @@
                 </div>
             </div>
             <!-- <div class="sec-title2 text-center mb-45">
-                <span class="sub-text style-bg white-color">Projects</span>
-                <h2 class="title title2 white-color">
-                  Our product Screenshots
-                </h2>
-            </div> -->
-            <div class="rs-carousel owl-carousel" data-loop="true" data-items="0" data-margin="" data-autoplay="true"
-                data-hoverpause="false" data-autoplay-timeout="4000" data-smart-speed="800" data-dots="false"
-                data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1"
-                data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2"
-                data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2"
-                data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="1"
+                        <span class="sub-text style-bg white-color">Projects</span>
+                        <h2 class="title title2 white-color">
+                          Our product Screenshots
+                        </h2>
+                    </div> -->
+            <div class="rs-carousel owl-carousel"  data-loop="true" data-items="0" data-margin="10"
+                data-autoplay="true" data-hoverpause="false" data-autoplay-timeout="4000" data-smart-speed="800"
+                data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
+                data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false"
+                data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2"
+                data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3"
                 data-md-device-nav="true" data-md-device-dots="false">
-
                 <div class="project-item">
                     <div class="project-img">
-                        <a><img src="assets/images/DeV-Screenshots/1.1.Main Dash.png" alt="images"></a>
+                        <a><img src="assets/images/DeV-Screenshots/1.1.MainDash.png" alt="images"></a>
                     </div>
-                    <!-- <div class="project-content ">
+                    <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.1.Main Dash.png" target="_blank">Main
+                                <h3 class="title"><a href="#assets/images/DeV-Screenshots/1.1.Main Dash.png">Main
                                         Dashboard</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/1.1.Main Dash.png"
-                                        target="_blank">Click To Preview</a></span>
-                                
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="project-item">
                     <div class="project-img">
@@ -1555,11 +1622,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.2.Integration Dashboard.png"
-                                        target="_blank">Integration Dashboard</a></h3>
-                                <span class="category"><a
-                                        href="assets/images/DeV-Screenshots/1.2.Integration Dashboard.png"
-                                        target="_blank">Click To Preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Integration Dashboard</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1571,10 +1636,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.3.Recent Activities.png"
-                                        target="_blank">Recent Activities</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/1.3.Recent Activities.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Recent Activities</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1586,10 +1650,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.All Dashboard.png"
-                                        target="_blank">All Dashboard</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/1.All Dashboard.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">All Dashboard</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1601,10 +1664,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.1.Server Details.png"
-                                        target="_blank">Server Details</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.1.Server Details.png"
-                                        target="_blank">Click to Preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Server Details</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1616,10 +1678,8 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.2.Git Repo.png"
-                                        target="_blank">Git Repository</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.2.Git Repo.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Git Repository</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> --> <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1631,10 +1691,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.3.Jenkins(CI_CD).png"
-                                        target="_blank">Jenkins (CI_CD)</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.3.Jenkins(CI_CD).png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Jenkins (CI_CD)</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1646,10 +1705,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.4.Deployment Checks.png"
-                                        target="_blank">Deployment Checks</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.4.Deployment Checks.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Deployment Checks</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1661,10 +1719,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.Project Features.png"
-                                        target="_blank">Project Features</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.Project Features.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Project Features</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1672,9 +1729,13 @@
             </div>
         </div>
     </div>
-    <div id="rs-portfolio2" class="rs-project white-bg style2 ">
+
+    </div>
+    </div>
+ 
+    <div id="slider1" class="rs-project white-bg style2 ">
         <div class="container">
-            <div class="sec-title2 text-center mb-45">
+            <div class="sec-title2 text-center mb-45 mt-45">
                 <!-- <span class="sub-text gold-color">Services</span> -->
                 <h2 class="title title2 Faustina">
                     Screenshots
@@ -1684,37 +1745,31 @@
                 </div>
             </div>
             <!-- <div class="sec-title2 text-center mb-45">
-                <span class="sub-text style-bg white-color">Projects</span>
-                <h2 class="title title2 white-color">
-                  Our product Screenshots
-                </h2>
-            </div> -->
-            <div class="rs-carousel owl-carousel" data-loop="true" data-items="0" data-margin="" data-autoplay="true"
-                data-hoverpause="false" data-autoplay-timeout="4000" data-smart-speed="800" data-dots="false"
-                data-nav="false" data-nav-speed="false" data-center-mode="false" data-mobile-device="1"
-                data-mobile-device-nav="false" data-mobile-device-dots="false" data-ipad-device="2"
-                data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2"
-                data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="3"
+                        <span class="sub-text style-bg white-color">Projects</span>
+                        <h2 class="title title2 white-color">
+                          Our product Screenshots
+                        </h2>
+                    </div> -->
+            <div class="rs-carousel owl-carousel"  data-loop="false" data-items="0" data-margin="10"
+                data-autoplay="false" data-hoverpause="false" data-autoplay-timeout="4000" data-smart-speed="800"
+                data-dots="false" data-nav="false" data-nav-speed="false" data-center-mode="false"
+                data-mobile-device="1" data-mobile-device-nav="false" data-mobile-device-dots="false"
+                data-ipad-device="2" data-ipad-device-nav="false" data-ipad-device-dots="false" data-ipad-device2="2"
+                data-ipad-device-nav2="false" data-ipad-device-dots2="false" data-md-device="1"
                 data-md-device-nav="true" data-md-device-dots="false">
-
                 <div class="project-item">
                     <div class="project-img">
-                        <a href="assets/images/DeV-Screenshots/1.1.Main Dash.png" class="MagicZoom"
-                            data-options="zoomPosition: top; expand: off;"><img
-                                src="assets/images/DeV-Screenshots/1.1.Main Dash.png" /></a>
-                        <a><img src="assets/images/DeV-Screenshots/1.1.Main Dash.png" alt="images"></a>
+                        <a><img src="assets/images/DeV-Screenshots/1.1.MainDash.png" alt="images"></a>
                     </div>
-                    <!-- <div class="project-content ">
+                    <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.1.Main Dash.png" target="_blank">Main
+                                <h3 class="title"><a href="#assets/images/DeV-Screenshots/1.1.Main Dash.png">Main
                                         Dashboard</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/1.1.Main Dash.png"
-                                        target="_blank">Click To Preview</a></span>
-                                
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
-                    </div> -->
+                    </div>
                 </div>
                 <div class="project-item">
                     <div class="project-img">
@@ -1724,11 +1779,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.2.Integration Dashboard.png"
-                                        target="_blank">Integration Dashboard</a></h3>
-                                <span class="category"><a
-                                        href="assets/images/DeV-Screenshots/1.2.Integration Dashboard.png"
-                                        target="_blank">Click To Preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Integration Dashboard</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1740,10 +1793,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.3.Recent Activities.png"
-                                        target="_blank">Recent Activities</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/1.3.Recent Activities.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Recent Activities</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1755,10 +1807,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/1.All Dashboard.png"
-                                        target="_blank">All Dashboard</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/1.All Dashboard.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">All Dashboard</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1770,10 +1821,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.1.Server Details.png"
-                                        target="_blank">Server Details</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.1.Server Details.png"
-                                        target="_blank">Click to Preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Server Details</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1785,10 +1835,8 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.2.Git Repo.png"
-                                        target="_blank">Git Repository</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.2.Git Repo.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Git Repository</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> --> <span class="category"><a id="previewslide" onclick=myFunction()>click to preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1800,10 +1848,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.3.Jenkins(CI_CD).png"
-                                        target="_blank">Jenkins (CI_CD)</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.3.Jenkins(CI_CD).png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Jenkins (CI_CD)</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1815,10 +1862,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.4.Deployment Checks.png"
-                                        target="_blank">Deployment Checks</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.4.Deployment Checks.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Deployment Checks</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1830,10 +1876,9 @@
                     <div class="project-content ">
                         <div class="vertical-middle">
                             <div class="vertical-middle-cell">
-                                <h3 class="title"><a href="assets/images/DeV-Screenshots/2.Project Features.png"
-                                        target="_blank">Project Features</a></h3>
-                                <span class="category"><a href="assets/images/DeV-Screenshots/2.Project Features.png"
-                                        target="_blank">Click to preview</a></span>
+                                <h3 class="title"><a href="case-studies-style1.html">Project Features</a></h3>
+                                <!-- <span class="category"><a href="case-studies-style1.html">IT Technology</a></span> -->
+                                <span class="category"><a id="previewslide" onclick=myFunction2()>click to close the preview</a></span>
                             </div>
                         </div>
                     </div>
@@ -1847,7 +1892,7 @@
     <!-- Pricing section start -->
     <div class="rs-pricing pt-155 pb-145 mt-45 md-pb-80 white-bg">
         <div class="container">
-            <div class="sec-title2 text-center mb-45">
+            <div class="sec-title2 text-center mt-45">
                 <!-- <span class="sub-text">Pricing</span> -->
                 <h2 class="title">
                     Our Pricing Plan
@@ -1868,63 +1913,79 @@
                         <div class="pricing-table-price">
                             <div class="pricing-table-bags">
                                 <span class="pricing-currency"></span>
-                                <span class="table-price-text mt-45"> XXXXX usd
+                                <span class="table-price-text mt-45"> XXXXX USD
                                 </span>
                                 <span class="table-period">Starting from</span>
                             </div>
                         </div>
                         <div class="pricing-table-body">
                             <ul>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">NO. OF USER - 10</span>
+                                <li><i class="fa fa-check"></i><span class="Livvic">NO. OF USER -
+                                        10</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">NO. OF PROJECT -
+                                <li><i class="fa fa-check "></i><span class="Livvic">NO. OF PROJECT
+                                        -
                                         10</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> JAVA, MERN, MEAN
+                                <li><i class="fa fa-check "></i><span class="Livvic"> JAVA, MERN,
+                                        MEAN
                                     </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">UNIT TESTING
+                                <li><i class="fa fa-check "></i><span class="Livvic">UNIT TESTING
                                         AUTOMATION</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> CODE REPOSITORY
+                                <li><i class="fa fa-check "></i><span class="Livvic"> CODE
+                                        REPOSITORY
                                         (Github / BITBUCKET)</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">USER MANAGEMENT</span>
+                                <li><i class="fa fa-check "></i><span class="Livvic">USER
+                                        MANAGEMENT</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">DATA BASE SETUP(MYSQL
+                                <li><i class="fa fa-check "></i><span class="Livvic">DATA BASE
+                                        SETUP(MYSQL
                                         OR POSTGRE
                                         OR MONGO
                                         )</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">PUBLIC CLOUD / ON
+                                <li><i class="fa fa-check "></i><span class="Livvic">PUBLIC CLOUD /
+                                        ON
                                         PREMISE</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">SCHEDULE
+                                <li><i class="fa fa-check "></i><span class="Livvic">SCHEDULE
                                         DEPLOYMENTS</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> E MAIL INTEGRATION
+                                <li><i class="fa fa-check "></i><span class="Livvic"> E MAIL
+                                        INTEGRATION
                                     </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">ACCESS &
+                                <li><i class="fa fa-check "></i><span class="Livvic">ACCESS &
                                         AUTHORIZATION(DB BASED
                                         ) </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">SONARQUBE CODE
+                                <li><i class="fa fa-check "></i><span class="Livvic">SONARQUBE CODE
                                         SCAN</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">DOCKER CONTAINERIZATION
+                                <li><i class="fa fa-close"></i><span class="Livvic">DOCKER
+                                        CONTAINERIZATION
                                         &
                                         REPOSITORY MANAGER (ARTEFACT)
                                     </span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">CENTRAL LOGGING</span>
+                                <li><i class="fa fa-close"></i><span class="Livvic">CENTRAL
+                                        LOGGING</span>
                                 </li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">MULTI TENANT</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">CODE REPOSITORY
+                                <li><i class="fa fa-close"></i><span class="Livvic">MULTI
+                                        TENANT</span></li>
+                                <li><i class="fa fa-close"></i><span class="Livvic">CODE REPOSITORY
                                         CREATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">CLUSTERED APPLICATION
+                                <li><i class="fa fa-close"></i><span class="Livvic">CLUSTERED
+                                        APPLICATION
                                         SETUP
                                         (PRODUCTION)</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">SINGLE SIGN ON / LDAP
+                                <li><i class="fa fa-close"></i><span class="Livvic">SINGLE SIGN ON /
+                                        LDAP
                                         INTEGRATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">FUNCTIONAL & SECURITY
+                                <li><i class="fa fa-close"></i><span class="Livvic">FUNCTIONAL &
+                                        SECURITY
                                         TESTING
                                         AUTOMATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">DOCKER WITH KUBERNETES
+                                <li><i class="fa fa-close"></i><span class="Livvic">DOCKER WITH
+                                        KUBERNETES
                                         CONTAINERIZATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">HYBRID (ON PREMISE TO
+                                <li><i class="fa fa-close"></i><span class="Livvic">HYBRID (ON
+                                        PREMISE TO
                                         CLOUD)</span>
                                 </li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">MULTI FACTOR
+                                <li><i class="fa fa-close"></i><span class="Livvic">MULTI FACTOR
                                         AUTHENTICATION</span></li>
 
 
@@ -1932,7 +1993,7 @@
                             </ul>
                         </div>
                         <div class="btn-part">
-                            <a class="readon buy-now">Buy Now</a>
+                            <a class="readon buy-now" target="_blank" href="https://wa.me/919894039246?text=Sir I want to Buy a BUSINESS standard in Devozy Enterprise">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -1947,7 +2008,7 @@
                         <div class="pricing-table-price">
                             <div class="pricing-table-bags">
                                 <span class="pricing-currency"></span>
-                                <span class="table-price-text mt-45"> XXXXX usd
+                                <span class="table-price-text mt-45"> XXXXX USD
                                 </span>
                                 <span class="table-period">Starting from</span>
                                 <!-- <button id="plusbtn">view</button> -->
@@ -1955,57 +2016,73 @@
                         </div>
                         <div class="pricing-table-body" id="plus">
                             <ul>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">NO. OF USER - 20</span>
+                                <li><i class="fa fa-check "></i><span class="Livvic">NO. OF USER -
+                                        20</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">NO. OF PROJECT -
+                                <li><i class="fa fa-check "></i><span class="Livvic">NO. OF PROJECT
+                                        -
                                         20</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> JAVA, MERN, MEAN
+                                <li><i class="fa fa-check "></i><span class="Livvic"> JAVA, MERN,
+                                        MEAN
                                     </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">UNIT TESTING
+                                <li><i class="fa fa-check "></i><span class="Livvic">UNIT TESTING
                                         AUTOMATION</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> CODE REPOSITORY
+                                <li><i class="fa fa-check "></i><span class="Livvic"> CODE
+                                        REPOSITORY
                                         (Github / BITBUCKET)</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">USER MANAGEMENT</span>
+                                <li><i class="fa fa-check "></i><span class="Livvic">USER
+                                        MANAGEMENT</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">DATA BASE SETUP(MYSQL
+                                <li><i class="fa fa-check "></i><span class="Livvic">DATA BASE
+                                        SETUP(MYSQL
                                         OR POSTGRE
                                         OR MONGO
                                         )</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">PUBLIC CLOUD / ON
+                                <li><i class="fa fa-check "></i><span class="Livvic">PUBLIC CLOUD /
+                                        ON
                                         PREMISE</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">SCHEDULE
+                                <li><i class="fa fa-check "></i><span class="Livvic">SCHEDULE
                                         DEPLOYMENTS</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> E MAIL INTEGRATION
+                                <li><i class="fa fa-check "></i><span class="Livvic"> E MAIL
+                                        INTEGRATION
                                     </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">ACCESS &
+                                <li><i class="fa fa-check "></i><span class="Livvic">ACCESS &
                                         AUTHORIZATION(DB BASED
                                         ) </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">SONARQUBE CODE
+                                <li><i class="fa fa-check "></i><span class="Livvic">SONARQUBE CODE
                                         SCAN</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">DOCKER CONTAINERIZATION
+                                <li><i class="fa fa-check "></i><span class="Livvic">DOCKER
+                                        CONTAINERIZATION
                                         &
                                         REPOSITORY MANAGER (ARTEFACT)
                                     </span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">CENTRAL LOGGING</span>
+                                <li><i class="fa fa-close"></i><span class="Livvic">CENTRAL
+                                        LOGGING</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">MULTI TENANT</span>
+                                <li><i class="fa fa-check "></i><span class="Livvic">MULTI
+                                        TENANT</span>
                                 </li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">CODE REPOSITORY
+                                <li><i class="fa fa-close"></i><span class="Livvic">CODE REPOSITORY
                                         CREATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">CLUSTERED APPLICATION
+                                <li><i class="fa fa-close"></i><span class="Livvic">CLUSTERED
+                                        APPLICATION
                                         SETUP
                                         (PRODUCTION)</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">SINGLE SIGN ON / LDAP
+                                <li><i class="fa fa-close"></i><span class="Livvic">SINGLE SIGN ON /
+                                        LDAP
                                         INTEGRATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">FUNCTIONAL & SECURITY
+                                <li><i class="fa fa-close"></i><span class="Livvic">FUNCTIONAL &
+                                        SECURITY
                                         TESTING
                                         AUTOMATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">DOCKER WITH KUBERNETES
+                                <li><i class="fa fa-close"></i><span class="Livvic">DOCKER WITH
+                                        KUBERNETES
                                         CONTAINERIZATION</span></li>
-                                <li><i class="fa fa-close text-danger"></i><span class="Livvic">HYBRID (ON PREMISE TO
+                                <li><i class="fa fa-close"></i><span class="Livvic">HYBRID (ON
+                                        PREMISE TO
                                         CLOUD)</span>
                                 </li>
-                                <li><i class="fa fa-close text-danger text-danger"></i><span class="Livvic">MULTI FACTOR
+                                <li><i class="fa fa-close"></i><span class="Livvic">MULTI FACTOR
                                         AUTHENTICATION</span></li>
 
 
@@ -2013,7 +2090,7 @@
                             </ul>
                         </div>
                         <div class="btn-part">
-                            <a class="readon buy-now">Buy Now</a>
+                            <a class="readon buy-now" target="_blank" href="https://wa.me/919894039246?text=Sir I want to Buy a BUSINESS plus in Devozy Enterprise">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -2028,64 +2105,79 @@
                         <div class="pricing-table-price">
                             <div class="pricing-table-bags">
                                 <span class="pricing-currency"></span>
-                                <span class="table-price-text mt-45"> XXXXX usd
+                                <span class="table-price-text mt-45"> XXXXX USD
                                 </span>
                                 <span class="table-period">Starting from</span>
                             </div>
                         </div>
                         <div class="pricing-table-body">
                             <ul>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">NO. OF USER -
+                                <li><i class="fa fa-check "></i><span class="Livvic">NO. OF USER -
                                         Unlimited</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">NO. OF PROJECT -
+                                <li><i class="fa fa-check "></i><span class="Livvic">NO. OF PROJECT
+                                        -
                                         Unlimited</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> JAVA, MERN, MEAN
+                                <li><i class="fa fa-check "></i><span class="Livvic"> JAVA, MERN,
+                                        MEAN
                                     </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">UNIT TESTING
+                                <li><i class="fa fa-check "></i><span class="Livvic">UNIT TESTING
                                         AUTOMATION</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> CODE REPOSITORY
+                                <li><i class="fa fa-check "></i><span class="Livvic"> CODE
+                                        REPOSITORY
                                         (Github / BITBUCKET)</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">USER MANAGEMENT</span>
+                                <li><i class="fa fa-check "></i><span class="Livvic">USER
+                                        MANAGEMENT</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">DATA BASE SETUP(MYSQL
+                                <li><i class="fa fa-check "></i><span class="Livvic">DATA BASE
+                                        SETUP(MYSQL
                                         OR POSTGRE
                                         OR MONGO
                                         )</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">PUBLIC CLOUD / ON
+                                <li><i class="fa fa-check "></i><span class="Livvic">PUBLIC CLOUD /
+                                        ON
                                         PREMISE</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">SCHEDULE
+                                <li><i class="fa fa-check "></i><span class="Livvic">SCHEDULE
                                         DEPLOYMENTS</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic"> E MAIL INTEGRATION
+                                <li><i class="fa fa-check "></i><span class="Livvic"> E MAIL
+                                        INTEGRATION
                                     </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">ACCESS &
+                                <li><i class="fa fa-check "></i><span class="Livvic">ACCESS &
                                         AUTHORIZATION(DB BASED
                                         ) </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">SONARQUBE CODE
+                                <li><i class="fa fa-check "></i><span class="Livvic">SONARQUBE CODE
                                         SCAN</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">DOCKER CONTAINERIZATION
+                                <li><i class="fa fa-check "></i><span class="Livvic">DOCKER
+                                        CONTAINERIZATION
                                         &
                                         REPOSITORY MANAGER (ARTEFACT)
                                     </span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">CENTRAL LOGGING</span>
+                                <li><i class="fa fa-check "></i><span class="Livvic">CENTRAL
+                                        LOGGING</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">MULTI TENANT</span>
+                                <li><i class="fa fa-check "></i><span class="Livvic">MULTI
+                                        TENANT</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">CODE REPOSITORY
+                                <li><i class="fa fa-check "></i><span class="Livvic">CODE REPOSITORY
                                         CREATION</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">CLUSTERED APPLICATION
+                                <li><i class="fa fa-check "></i><span class="Livvic">CLUSTERED
+                                        APPLICATION
                                         SETUP
                                         (PRODUCTION)</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">SINGLE SIGN ON / LDAP
+                                <li><i class="fa fa-check "></i><span class="Livvic">SINGLE SIGN ON
+                                        / LDAP
                                         INTEGRATION</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">FUNCTIONAL & SECURITY
+                                <li><i class="fa fa-check "></i><span class="Livvic">FUNCTIONAL &
+                                        SECURITY
                                         TESTING
                                         AUTOMATION</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">DOCKER WITH KUBERNETES
+                                <li><i class="fa fa-check "></i><span class="Livvic">DOCKER WITH
+                                        KUBERNETES
                                         CONTAINERIZATION</span></li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">HYBRID (ON PREMISE TO
+                                <li><i class="fa fa-check "></i><span class="Livvic">HYBRID (ON
+                                        PREMISE TO
                                         CLOUD)</span>
                                 </li>
-                                <li><i class="fa fa-check text-success"></i><span class="Livvic">MULTI FACTOR
+                                <li><i class="fa fa-check "></i><span class="Livvic">MULTI FACTOR
                                         AUTHENTICATION</span>
                                 </li>
 
@@ -2094,7 +2186,7 @@
                             </ul>
                         </div>
                         <div class="btn-part">
-                            <a class="readon buy-now">Buy Now</a>
+                            <a class="readon buy-now" target="_blank" href="https://wa.me/919894039246?text=Sir I want to Buy a Enterprise plan in Devozy Enterprise">Contact us</a>
                         </div>
                     </div>
                 </div>
@@ -2243,42 +2335,6 @@
                     </tr>
 
                     </tr>
-                </table>
-
-
-            </div>
-        </div>
-
-    </div>
-    <div id="rs-about" class="style3 modify1">
-
-        <div class="about-bg pt-120 pb-120 md-pt-80 md-pb-80">
-            <div class="container">
-                <div class="sec-title2 text-center Faustina mb-45">
-                    <!-- <span class="sub-text gold-color">Services</span> -->
-                    <h2 class="title title2">
-                        Comparison
-                    </h2>
-                    <div class="heading-line">
-
-                    </div>
-                </div>
-                <table class="Livvic">
-                    <tr>
-                        <th class="blue Livvic1">
-                            <strong> Parameter</strong>
-                        </th>
-                        <th class="blue Livvic1">
-                            <strong>Jenkins</strong>
-                        </th>
-                        <th class="blue Livvic1">
-                            <strong>Azure pipelines</strong>
-                        </th>
-                        <th class="blue Livvic1">
-                            <strong>DEVOZY</strong>
-                        </th>
-                    </tr>
-
                     <tr>
                         <td>SSO Integration</td>
                         <td> Require development</td>
@@ -2345,9 +2401,63 @@
         </div>
 
     </div>
+    <!-- <div id="rs-about" class="style3 modify1">
+
+        <div class="about-bg pt-120 pb-120 md-pt-80 md-pb-80">
+            <div class="container">
+                <div class="sec-title2 text-center Faustina mb-45">
+                    <span class="sub-text gold-color">Services</span>
+                    <h2 class="title title2">
+                        Comparison
+                    </h2>
+                    <div class="heading-line">
+
+                    </div>
+                </div>
+                <table class="Livvic">
+                    <tr>
+                        <th class="blue Livvic1">
+                            <strong> Parameter</strong>
+                        </th>
+                        <th class="blue Livvic1">
+                            <strong>Jenkins</strong>
+                        </th>
+                        <th class="blue Livvic1">
+                            <strong>Azure pipelines</strong>
+                        </th>
+                        <th class="blue Livvic1">
+                            <strong>DEVOZY</strong>
+                        </th>
+                    </tr>
+
+                  
+                </table>
+
+
+            </div>
+        </div>
+
+    </div> -->
 
     <!-- Table End  -->
-
+    <div class="rs-cta style1 bg7 pt-70 pb-70">
+        <div class="container">
+            <div class="cta-wrap">
+                <div class="row align-items-center">
+                    <div class="col-lg-9 col-md-12 md-pr-0 pr-148 md-pl-15 md-mb-30 md-center">
+                        <div class="title-wrap">
+                            <h2 class="epx-title">Do you want Demos ?</h2>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-12 text-righ">
+                        <div class="button-wrapt md-center">
+                            <a class="readon learn-more" href="https://wa.me/919894039246?text=Sir I want to Devozy Demos" target="_blank">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Main content End -->
 
@@ -2535,5 +2645,52 @@
 
     <!--End of Tawk.to Script-->
 </body>
+<script type="text/javascript">
+
+    function showImage(img) {
+        var src = img.src;
+        var largeSrc = src.replace('small', 'large');
+        document.getElementById('full').src = largeSrc;
+    }
+    function bigImg(x) {
+
+        x.style.height = "440px";
+        x.style.width = "1040px";
+    }
+
+    function normalImg(x) {
+        x.style.height = "320px";
+        x.style.width = "420px";
+    }
+    function myFunction() {
+        var x = document.getElementById("slider1");
+        var y = document.getElementById("slider2");
+
+        if (x.style.display === "none") {
+            x.style.display = "block";
+            y.style.display = "none";
+        } else {
+            y.style.display = "block";
+            x.style.display = "none";
+        }
+    }
+    function myFunction2() {
+        var x = document.getElementById("slider1");
+        var y = document.getElementById("slider2");
+
+        if (y.style.display === "none") {
+            y.style.display = "block";
+            x.style.display = "none";
+        } else {
+            x.style.display = "block";
+            y.style.display = "none";
+        }
+    }
+
+
+
+
+
+</script>
 
 </html>

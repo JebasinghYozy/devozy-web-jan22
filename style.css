@@ -56,80 +56,125 @@
 --------------------------------------------------------*/
 /* Patua One */
 /* P  */
+.thumbnail{
+  position: relative;
+  z-index: 0;
+  }
+  
+  .thumbnail:hover{
+  background-color: transparent;
+  z-index: 50;
+  }
+  
+  .thumbnail span{ /*CSS for enlarged image*/
+  position: absolute;
+  /* background-color: lightyellow; */
+  padding: 5px;
+  left: -1000px;
+  border: 1px dashed gray;
+  visibility: hidden;
+  color: black;
+  text-decoration: none;
+  }
+  
+  .thumbnail span img{ /*CSS for enlarged image*/
+  border-width: 8px;
+  padding: 2px;
+  }
+  
+  .thumbnail:hover span{ /*CSS for enlarged image on hover*/
+  visibility: visible;
+  top: 0;
+  bottom: 20px;
+  right: 30px;
+  width: 1000px;
+  left: 60px; /*position where enlarged image should offset horizontally */
+  
+  }
+  .thumbnail:hover .rs-carousel.style2{ /*CSS for enlarged image on hover*/
+    visibility: none;
+    top: 0;
+    bottom: 20px;
+    right: 30px;
+    width: 1000px;
+    left: 60px; /*position where enlarged image should offset horizontally */
+    
+    }
+	
 .Livviche{
-   font-family: Arial, Verdana, sans-serif;
+   font-family: 'Prompt', sans-serif;
 }
 .Livvic{
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: bold;
   font-weight: 600;
   font-display: swap;
 }
 /* Title */
 .Faustina{
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   
 }
 /* P  */
 .Livvic1{
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: bold;
   font-weight: 700;
   font-display: swap;
 }
 .Livvictd{
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: bold;
   font-size: 18px;
   font-weight: 700;
   font-display: swap;
 }
-/* font-family: Arial, Verdana, sans-serif; */
-/* font-family: Arial, Verdana, sans-serif;
+/* font-family: 'Prompt', sans-serif; */
+/* font-family: 'Prompt', sans-serif;
 @font-face {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: bold;
     
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCr-x1S2hzjrlfXbeM-.ttf) format('truetype');
 }
 @font-face {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffw8Eesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCp-x1S2hzjrlfnbw.ttf) format('truetype');
 }
 @font-face {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlffm8Aesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: normal;
   font-weight: 600;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlfft8cesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-display: swap;
   src: url(http://fonts.gstatic.com/s/livvic/v8/rnCq-x1S2hzjrlff08Yesg.ttf) format('truetype');
 }
 @font-face {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-style: normal;
   font-weight: 900;
   font-display: swap;
@@ -142,10 +187,10 @@ html,
 body {
   font-size: 16px;
   color: #454545;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   vertical-align: baseline;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   overflow-x: hidden;
 }
 img {
@@ -164,7 +209,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   color: #101010;
   margin: 0 0 26px;
   line-height: 1.2;
@@ -244,7 +289,7 @@ body.nav-expanded .offwrap {
 .bold-text {
   font-size: 20px;
   font-weight: bold;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .extra-bold {
   font-weight: 800 !important;
@@ -363,6 +408,9 @@ ul {
   background-size: cover;
   background-color: #000060;
 }
+.green1{
+  color: green;
+}
 .bg6 {
   background: url(assets/images/bg/project-bg.png);
   background-repeat: no-repeat;
@@ -371,10 +419,11 @@ ul {
   background-color: #000060;
 }
 .bg7 {
-  background: url(assets/images/bg/cta-bg.jpg);
+  background: url(assets/cta-bg.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  opacity: 80%;
 }
 .bg8 {
   background: url(assets/images/bg/call-action.jpg);
@@ -577,7 +626,7 @@ ul.services-list li a:before {
   position: absolute;
   right: 12px;
   top: 16px;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   color: #1c1b1b;
 }
 ul.services-list li a:hover,
@@ -666,7 +715,7 @@ button:focus {
   right: 0;
   color: #454545;
   line-height: 16px;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 12px;
 }
 .pagination-part .next-page:before {
@@ -708,7 +757,7 @@ blockquote {
   font-style: italic;
   text-align: left;
   clear: both;
-  font-weight: 500;
+  font-weight: 600;
   border-radius: 8px;
 }
 blockquote:before {
@@ -717,8 +766,8 @@ blockquote:before {
   color: #0b70e1;
   padding-bottom: 0;
   display: inline-block;
-  font-family: Arial, Verdana, sans-serif;
-  font-weight: 500;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 600;
   text-align: center;
   top: 0;
   background: 0 0;
@@ -738,7 +787,7 @@ blockquote cite:before {
   background: #0b70e1;
   height: 2px;
   width: 40px;
-  font-weight: 500;
+  font-weight: 600;
   text-align: center;
   top: -4px;
   margin-right: 10px;
@@ -755,7 +804,7 @@ blockquote cite:before {
   transform: translate(-50%, -15%);
 }
 .arrow-btn a {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 17px;
   border-color: #f2541b;
   border-style: solid;
@@ -800,10 +849,12 @@ blockquote cite:before {
   opacity: 0;
   visibility: hidden;
 }
+
+
 .rs-carousel.nav-style1 .owl-nav .owl-next i:before,
 .rs-carousel.nav-style1 .owl-nav .owl-prev i:before {
   content: "\f138";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .rs-carousel.nav-style1 .owl-nav .owl-next {
   right: 30px;
@@ -842,7 +893,7 @@ blockquote cite:before {
 }
 .rs-carousel.nav-style2 .owl-nav .owl-prev i:before,
 .rs-carousel.nav-style2 .owl-nav .owl-next i:before {
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 22px;
 }
 .rs-carousel.nav-style2 .owl-nav .owl-prev:hover i,
@@ -949,7 +1000,7 @@ blockquote cite:before {
   background-image: linear-gradient(250deg, #4e95ed 0%, #03228f 100%);
   padding: 18px 36px 16px 36px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .readon.learn-more.sub-con:hover {
   background-image: linear-gradient(250deg, #03228f 0%, #4e95ed 100%);
@@ -958,7 +1009,7 @@ blockquote cite:before {
 .readon.learn-more.submit {
   background-image: linear-gradient(90deg, #03228f 0%, #4e95ed 100%);
   padding: 16px 40px 16px 40px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
 }
 .readon.learn-more.submit:hover {
@@ -969,7 +1020,7 @@ blockquote cite:before {
   background-image: linear-gradient(50deg, #03228f 10%, #0e73e4 100%);
   padding: 12px 30px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .readon.learn-more.post:hover {
   background-image: linear-gradient(50deg, #0e73e4 10%, #03228f 100%);
@@ -1024,7 +1075,7 @@ blockquote cite:before {
 .readon.started.get-ready3 {
   border-radius: 5px 5px 5px 5px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 }
 .readon.started.get-ready4 {
   background-image: linear-gradient(80deg, #6e71db 0%, #9c9ff9 100%);
@@ -1091,7 +1142,7 @@ blockquote cite:before {
   background-image: linear-gradient(90deg, #032390 0%, #032390 100%);
   color: #ffffff;
   border-radius: 3px 3px 3px 3px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .readon.buy-now.table-btn:hover {
   background-image: linear-gradient(90deg, #0d6ada 0%, #0d6ada 100%);
@@ -1100,7 +1151,7 @@ blockquote cite:before {
   background: rgba(0, 0, 0, 0) linear-gradient(90deg, #03228f 0%, #1d62f0 100%);
   color: #ffffff;
   border-radius: 4px;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   text-transform: capitalize;
   padding: 17px 28px;
@@ -1122,7 +1173,7 @@ blockquote cite:before {
 .readon.view-more {
   padding: 12px 25px 12px 25px;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: #111111;
   background-color: #FFFFFF;
@@ -1130,7 +1181,7 @@ blockquote cite:before {
 }
 .readon.discover {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #032491;
   padding: 17px 30px 17px 30px;
   background: transparent;
@@ -1161,7 +1212,7 @@ blockquote cite:before {
   padding: 15px 32px;
   border-radius: 3px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: #101010;
   border: 1px solid #f2541b;
@@ -1180,7 +1231,7 @@ blockquote cite:before {
   line-height: 22px;
   border-radius: 30px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff !important;
   background-image: linear-gradient(50deg, #03228f 10%, #0e73e4 100%);
   z-index: 1;
@@ -1204,7 +1255,7 @@ blockquote cite:before {
 .readon.more-about:before {
   content: "\f113";
   position: absolute;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 10px;
   top: 17px;
   right: 24px;
@@ -1222,12 +1273,12 @@ blockquote cite:before {
   transition: all ease .3s;
   padding: 18px 0px 0px 0px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #101010;
 }
 .services-button a:after {
   content: "\f113";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 10px;
   position: relative;
   right: 0;
@@ -1242,7 +1293,7 @@ blockquote cite:before {
   position: relative;
   display: inline-block;
   transition: all ease .3s;
-  font-weight: 500;
+  font-weight: 600;
   color: #032390;
 }
 .services-btn2 a:after {
@@ -1274,9 +1325,9 @@ blockquote cite:before {
   right: 0;
   top: 50%;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #f2541b;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   transform: translateY(-50%);
   transition: all 0.2s ease;
 }
@@ -1299,7 +1350,7 @@ blockquote cite:before {
 }
 .blog-button a:after {
   content: "\f113";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 8px;
   position: relative;
   right: 0;
@@ -1338,15 +1389,15 @@ blockquote cite:before {
   padding-right: 25px;
   position: relative;
   z-index: 1;
-  font-family: Arial, Verdana, sans-serif;
-  font-weight: 500;
+  font-family: 'Prompt', sans-serif;
+  font-weight: 600;
   font-size: 15px;
   transition: all 0.3s;
 }
 .blog-button.inner-blog a:after {
   content: "\f114";
   position: absolute;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 15px;
   top: 1px;
   right: 0;
@@ -1373,7 +1424,7 @@ blockquote cite:before {
   text-transform: capitalize;
   font-size: 16px;
   line-height: 1;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   background-image: linear-gradient(160deg, #03228f 0%, #0b70e1 77%);
   transition: all .3s ease;
@@ -1418,7 +1469,7 @@ blockquote cite:before {
   padding: 10px 40px;
   border-radius: 3px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   background-image: linear-gradient(90deg, #03228f 0%, #0e73e4 100%);
   color: #ffffff;
   z-index: 1;
@@ -1732,7 +1783,7 @@ blockquote cite:before {
   line-height: 28px;
   font-size: 14px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
   color: #03228F;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -1747,7 +1798,7 @@ blockquote cite:before {
   line-height: 28px;
   font-size: 20px;
   letter-spacing: 1px;
-  font-weight: 500;
+  font-weight: 600;
   color: #03228F;
   text-transform: uppercase;
   margin-bottom: 10px;
@@ -1826,7 +1877,7 @@ blockquote cite:before {
 }
 .sec-title .sub-text.choose {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .sec-title .title {
   font-size: 36px;
@@ -1855,7 +1906,7 @@ blockquote cite:before {
 
 .sec-title .desc {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 .sec-title .desc.white-color {
@@ -1864,7 +1915,7 @@ blockquote cite:before {
 .sec-title .desc-big {
   font-size: 28px;
   line-height: 48px;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 .sec-title2 {
@@ -1874,9 +1925,9 @@ blockquote cite:before {
   margin: 0 0 10px;
   display: block;
   line-height: 28px;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #03228F;
   text-transform: uppercase;
 }
@@ -1980,8 +2031,8 @@ blockquote cite:before {
 .sec-title2 .desc {
   font-size: 18px;
   line-height: 31px;
-  font-weight: 500;
-  /* font-weight: 500; */
+  font-weight: 600;
+  /* font-weight: 600; */
   /* 454545 */
   color: #000000;
   max-width: 429px;
@@ -2033,7 +2084,7 @@ blockquote cite:before {
 }
 .sec-title3 .desc {
   font-size: 19px;
-  font-weight: 500;
+  font-weight: 600;
   color: #fff;
   margin: 0;
 }
@@ -2042,7 +2093,7 @@ blockquote cite:before {
 }
 .sec-title4 .sub-title {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: #787BF2;
   display: block;
@@ -2051,7 +2102,7 @@ blockquote cite:before {
 .sec-title4 .sub-text {
   font-size: 16px;
   line-height: 1.4;
-  font-weight: 500;
+  font-weight: 600;
   color: #03228F;
   margin: 0 0 10px;
   display: block;
@@ -2126,7 +2177,7 @@ blockquote cite:before {
 .sec-title5 .desc {
   font-size: 18px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   max-width: 626px;
   margin: 0 auto;
@@ -2134,7 +2185,7 @@ blockquote cite:before {
 .sec-title5 .desc2 {
   font-size: 15px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   max-width: 507px;
   margin: 0;
@@ -2157,7 +2208,7 @@ blockquote cite:before {
 .sec-title6 .sub-text.new-text-style {
   font-size: 14px;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 600;
 }
 .sec-title6 .title {
   font-size: 36px;
@@ -2213,7 +2264,7 @@ blockquote cite:before {
   line-height: 35px;
   border: none;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   /* 454545 */
   color: #000000;
 }
@@ -2222,8 +2273,8 @@ blockquote cite:before {
   left: 0;
   z-index: 0;
   content: "\f058";
-  font-weight: 500;
-  font-family: Arial, Verdana, sans-serif;
+  font-weight: 600;
+  font-family: 'Prompt', sans-serif;
   color: #787cf2;
 }
 /* -----------------------
@@ -2395,7 +2446,7 @@ blockquote cite:before {
   padding: 0;
   color: #ffffff;
   position: relative;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li a:hover {
   color: #bbb;
@@ -2415,7 +2466,7 @@ blockquote cite:before {
   display: block;
   cursor: pointer;
   transform: translateY(-50%);
-  font-weight: 500;
+  font-weight: 600;
 }
 .full-width-header .rs-header .menu-area .main-menu .rs-menu ul.nav-menu li.menu-item-has-children:hover > a:before {
   content: "-";
@@ -2450,7 +2501,7 @@ blockquote cite:before {
   padding-right: 40px;
   margin: 0;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #101010;
   height: unset;
   line-height: 16px;
@@ -2687,7 +2738,7 @@ blockquote cite:before {
   padding: 13px 22px;
   border-radius: 3px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
 }
 .full-width-header .rs-header.style2 .menu-area.sticky .expand-btn-inner ul li .quote-btn:hover {
   color: #ffffff;
@@ -2741,7 +2792,7 @@ blockquote cite:before {
   padding: 13px 22px;
   border-radius: 3px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
 }
 .full-width-header .rs-header.style2 .expand-btn-inner ul li .quote-btn:hover {
   color: #ffffff;
@@ -3179,7 +3230,7 @@ blockquote cite:before {
   padding: 16px 26px;
   border-radius: 3px;
   color: #fff;
-  font-weight: 500;
+  font-weight: 600;
   padding-right: 30px;
   text-transform: uppercase;
 }
@@ -3586,7 +3637,7 @@ body .search-modal .close:hover {
 }
 .rs-about.home14-about-style .about-bottom-section .addon-services .services-text .title {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 1.4em;
   color: #ffffff;
   margin: 0 0 10px;
@@ -3618,7 +3669,7 @@ body .search-modal .close:hover {
 .rs-banner.main-home .content-wrap .description .desc {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   margin: 0;
   padding-bottom: 40px;
@@ -3635,7 +3686,7 @@ body .search-modal .close:hover {
 .rs-banner.style2 .banner-content .sub-title {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   text-transform: uppercase;
   margin-bottom: 20px;
@@ -3686,7 +3737,7 @@ body .search-modal .close:hover {
 .rs-banner.style3 .banner-content .desc {
   font-size: 20px;
   line-height: 34px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   margin-bottom: 55px;
 }
@@ -3767,7 +3818,7 @@ body .search-modal .close:hover {
 }
 .rs-banner.style4 .banner-content .sub-title {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: #ffffff;
   display: block;
@@ -3783,7 +3834,7 @@ body .search-modal .close:hover {
 .rs-banner.style4 .banner-content .desc {
   font-size: 20px;
   line-height: 34px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   margin-bottom: 55px;
 }
@@ -3823,7 +3874,7 @@ body .search-modal .close:hover {
 .rs-banner.style5 .banner-content .desc {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-bottom: 40px;
   padding-right: 188px;
@@ -3874,7 +3925,7 @@ body .search-modal .close:hover {
 .rs-banner.style6 .banner-content .desc {
   font-size: 20px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-bottom: 40px;
   padding-right: 68px;
@@ -3916,7 +3967,7 @@ body .search-modal .close:hover {
 }
 .rs-banner.style7 .banner-content .desc {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 34px;
   color: #ffffff;
   margin: 0px 40px 54px 0px;
@@ -3934,7 +3985,7 @@ body .search-modal .close:hover {
   font-size: 18px;
   line-height: 32px;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
   color: #f24c1a;
   display: block;
   margin: 0px 0px 15px 0px;
@@ -3971,7 +4022,7 @@ body .search-modal .close:hover {
 .rs-banner.style9 .banner-content .sub-text {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   display: block;
   margin-bottom: 10px;
@@ -4024,7 +4075,7 @@ body .search-modal .close:hover {
 .rs-banner.style9 .banner-content .desc {
   font-size: 18px;
   line-height: 31px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   margin-bottom: 40px;
 }
@@ -4073,7 +4124,7 @@ body .search-modal .close:hover {
 .rs-banner.style10 .banner-content .sub-text {
   font-size: 14px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #ffffff;
@@ -4126,7 +4177,7 @@ body .search-modal .close:hover {
   color: #ffffff;
   display: inline-block;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-breadcrumbs .breadcrumbs-inner ul li a {
   position: relative;
@@ -4181,7 +4232,7 @@ body .search-modal .close:hover {
 .rs-slider.style1 .slider-content .sl-desc {
   font-size: 20px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   margin-bottom: 40px;
 }
@@ -4226,7 +4277,7 @@ body .search-modal .close:hover {
 .rs-slider.style1 .owl-nav .owl-next i:before,
 .rs-slider.style1 .owl-nav .owl-prev i:before {
   content: "\f112";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .rs-slider.style1 .owl-nav .owl-next:hover,
 .rs-slider.style1 .owl-nav .owl-prev:hover {
@@ -4279,7 +4330,7 @@ body .search-modal .close:hover {
 .rs-slider.style2 .slider-content .sl-desc {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   max-width: 600px;
   margin-bottom: 20px;
@@ -4317,7 +4368,7 @@ body .search-modal .close:hover {
 .rs-slider.style2 .owl-nav .owl-next i:before,
 .rs-slider.style2 .owl-nav .owl-prev i:before {
   content: "\f112";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .rs-slider.style2 .owl-nav .owl-next:hover,
 .rs-slider.style2 .owl-nav .owl-prev:hover {
@@ -4366,10 +4417,10 @@ body .search-modal .close:hover {
 .rs-slider.style3 .owl-nav .owl-next i:before,
 .rs-slider.style3 .owl-nav .owl-prev i:before {
   content: "\f112";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
   line-height: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-slider.style3 .owl-nav .owl-next:hover,
 .rs-slider.style3 .owl-nav .owl-prev:hover {
@@ -4385,7 +4436,7 @@ body .search-modal .close:hover {
 .rs-slider.style3 .owl-nav .owl-next i:before {
   content: "\f113";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-slider.style3 .owl-nav .owl-prev {
   right: unset;
@@ -4394,7 +4445,7 @@ body .search-modal .close:hover {
 .rs-slider.style3 .owl-nav .owl-prev i:before {
   content: "\f112";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 /*------------------------------------
     09. Video Section CSS
@@ -4541,7 +4592,7 @@ body .search-modal .close:hover {
 }
 .rs-faq .faq-content .accordion .card .card-header .card-link:after {
   position: absolute;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   content: "\f068";
   right: 20px;
   top: 50%;
@@ -4799,7 +4850,7 @@ body .search-modal .close:hover {
 .rs-counter.style4 .counter-top-area .counter-list .counter-text .title {
   color: #fff;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-counter.style5 {
   margin-top: unset;
@@ -5053,11 +5104,11 @@ body .search-modal .close:hover {
   margin: 0px;
 }
 .rs-cta.style1 span {
-  font-weight: 500;
+  font-weight: 600;
   margin: 0 0 10px;
   display: block;
   line-height: 28px;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 14px;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -5070,7 +5121,7 @@ body .search-modal .close:hover {
     14. Skill-bar Section CSS
 ---------------------------------------*/
 .rs-skillbar.style1 .cl-skill-bar .skillbar-title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   color: #212121;
 }
@@ -5142,7 +5193,7 @@ body .search-modal .close:hover {
 .rs-skillbar.style1.modify2 .cl-skill-bar .skillbar .skill-bar-percent {
   right: 70px;
   color: #454545;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-skillbar.style1.modify3 {
   padding: 0 120px 0 0;
@@ -5164,7 +5215,7 @@ body .search-modal .close:hover {
 .rs-skillbar.style1.modify3 .cl-skill-bar .skillbar .skill-bar-percent {
   right: 70px;
   color: #454545;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-skillbar.style1.modify3 .cl-skill-bar .skillbar.purple-style {
   border-color: #7E06E4;
@@ -5182,7 +5233,7 @@ body .search-modal .close:hover {
   padding: 0 0px 0 0;
 }
 .rs-skillbar.style1.modify3.skillbar-home14 .cl-skill-bar .skillbar-title {
-  font-weight: 500;
+  font-weight: 600;
   font-size: 16px;
 }
 .rs-skillbar.style1.modify3.skillbar-home14 .cl-skill-bar .skillbar {
@@ -5194,7 +5245,7 @@ body .search-modal .close:hover {
 .rs-skillbar.style1.modify3.skillbar-home14 .cl-skill-bar .skillbar .skill-bar-percent {
   right: 70px;
   color: #454545;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-skillbar.style1.modify3.skillbar-home14 .cl-skill-bar .skillbar.purple-style {
   border-color: #0073FF;
@@ -5345,7 +5396,7 @@ body .search-modal .close:hover {
 .rs-why-choose.style3 .features-content .features-list li span {
   color: #fff;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-why-choose.style3 .features-wrap .sub-title {
@@ -5365,7 +5416,7 @@ body .search-modal .close:hover {
 .rs-why-choose.style3 .features-wrap .desc {
   font-size: 19px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   margin-bottom: 45px;
 }
@@ -5409,7 +5460,7 @@ body .search-modal .close:hover {
 .rs-team .team-item-wrap .team-content .designation {
   display: block;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 26px;
   color: #ffffff;
   margin-bottom: 15px;
@@ -5421,7 +5472,7 @@ body .search-modal .close:hover {
 .rs-team .team-item-wrap .team-content .team-social li a i {
   font-size: 15px;
   line-height: 14px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
 }
 .rs-team .team-item-wrap .team-content .team-social li:last-child {
@@ -5577,7 +5628,7 @@ body .search-modal .close:hover {
 }
 .rs-team.style2 .team-item .team-content .designation {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   color: #555555;
   display: block;
@@ -5676,7 +5727,7 @@ body .search-modal .close:hover {
 .rs-team.home14-team-style .team-top-section .team-item-wrap .team-content .team-title {
   color: #ffffff;
   display: block;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 .rs-team.home14-team-style .team-top-section .team-item-wrap .team-content .footer-social {
@@ -5727,9 +5778,9 @@ body .search-modal .close:hover {
 }
 .rs-team.home14-team-style .team-top-section .slick-arrow:before {
   content: "\f115";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-team.home14-team-style .team-top-section .slick-arrow.slick-prev {
   right: 27%;
@@ -5759,7 +5810,7 @@ body .search-modal .close:hover {
 .rs-team-Single .btm-info-team .con-info .designation-info {
   font-size: 16px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 600;
   color: #0B70E1;
   display: block;
   text-transform: uppercase;
@@ -5774,7 +5825,7 @@ body .search-modal .close:hover {
 .rs-team-Single .btm-info-team .con-info .short-desc {
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-bottom: 25px;
   padding-right: 50px;
@@ -5789,7 +5840,7 @@ body .search-modal .close:hover {
   margin-right: 18px;
   position: relative;
   top: 2px;
-  font-weight: 500;
+  font-weight: 600;
   display: inline-block;
   text-align: center;
 }
@@ -5818,7 +5869,7 @@ body .search-modal .close:hover {
   position: absolute;
   right: 130px;
   color: #0a0a0a;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   height: 100%;
   top: 250px;
   opacity: 0.02;
@@ -6466,6 +6517,14 @@ body .search-modal .close:hover {
   margin: 0 -12px 0 0;
   display: flex;
 }
+.rs-services.style5 .services-item:hover {
+  padding: 25px 25px 25px 25px;
+  background-color: #f14d1a;
+  border-radius: 4px 4px 4px 4px;
+  margin: 0 -12px 0 0;
+  display: flex;
+  color: #ffffff;
+}
 .rs-services.style5 .services-item .services-icon {
   padding: 5px 5px 0px 0px;
 }
@@ -6892,7 +6951,7 @@ body .search-modal .close:hover {
 .rs-process.style6 .tab-area .nav li .tab-item p {
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #101010;
   height: 0;
   opacity: 0;
@@ -6941,6 +7000,29 @@ body .search-modal .close:hover {
   color: #FFFFFF;
   transform: scale(1);
   
+
+}
+.rs-pricing .pricing-table .li.i.fa-check {
+  color: green;
+}
+.rs-pricing .pricing-table:hover .fa-check {
+  color: #FFFFFF;
+ 
+  
+}
+.rs-pricing .pricing-table.fa-check {
+  
+  /* background: #0f3157; */
+  color: #FFFFFF;
+ 
+  
+}
+.rs-pricing .pricing-table:hover .fa-close {
+  
+  /* background: #0f3157; */
+  color: #FFFFFF;
+ 
+  
 }
 .rs-pricing .pricing-table .pricing-table-price .pricing-table-bags .table-price-text1{
   font-size: 52px;
@@ -6957,7 +7039,7 @@ color: #fff;
 .rs-pricing .pricing-table:hover .pricing-table-price .pricing-table-bags .table-period {
   color: #fff;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-pricing .pricing-table.h3 {
@@ -6985,7 +7067,7 @@ color: #101010;
   background-color: #1273EB;
   border-radius: 0px 30px 30px 0px;
   font-size: 13px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   position: absolute;
   color: #fff;
@@ -7031,7 +7113,7 @@ color: #101010;
 .rs-pricing .pricing-table .pricing-table-price .pricing-table-bags .table-period {
   color: #435761;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-pricing .pricing-table .pricing-table-body {
@@ -7046,12 +7128,27 @@ color: #101010;
   padding: 9px 0px 9px 0px;
   margin-bottom: 0px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
 }
-.rs-pricing .pricing-table .pricing-table-body li i {
+.rs-pricing .pricing-table .pricing-table-body li i.fa-check {
   float: right;
   margin-right: 0;
-  color: #106eea;
+  color:green;
+}
+.rs-pricing .pricing-table .pricing-table-body li i.fa-close {
+  float: right;
+  margin-right: 0;
+  color:red;
+}
+.rs-pricing .pricing-table .pricing-table-body:hover li i.fa-check {
+  float: right;
+  margin-right: 0;
+  color:#FFFFFF;
+}
+.rs-pricing .pricing-table .pricing-table-body:hover li i.fa-close {
+  float: right;
+  margin-right: 0;
+  color:#FFFFFF;
 }
 .rs-pricing .pricing-table.primary-bg {
   background-image: linear-gradient(70deg, #0b70e1 0%, #03228f 100%);
@@ -7296,7 +7393,7 @@ color: #101010;
 .rs-project.style1 .project-item .project-content .category {
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-project.style1 .project-item .project-content .category a {
@@ -7329,7 +7426,7 @@ color: #101010;
 .rs-project.style1 .owl-nav .owl-next i:before,
 .rs-project.style1 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .rs-project.style1 .owl-nav .owl-next:hover,
 .rs-project.style1 .owl-nav .owl-prev:hover {
@@ -7362,23 +7459,8 @@ color: #101010;
   border-radius: 5px;
   
 }
-.rs-project.style2 .project-item .project-img:hover{
-  width: 1000px;
-  position:inherit;
-  
-}
-.zoom {
-  
-  padding: 50px;    
-  transform: scale(1);
-  margin: 0 auto;
-}
-.zoom:hover {
-  transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-}
-#forumGroup{
-  
-}
+
+
 
 /* .rs-project.style2 .project-item .project-img:hover img{
   
@@ -7387,7 +7469,9 @@ color: #101010;
   border-radius: 5px;
   /* transform: scale(1.5); */
 /* } */
-
+#slider1{
+  display: none;
+}
 .rs-project.style2 .project-item .project-content {
   position: absolute;
   width: 100%;
@@ -7415,7 +7499,7 @@ color: #101010;
 .rs-project.style2 .project-item .project-content .category {
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-project.style2 .project-item .project-content .category a {
@@ -7458,7 +7542,7 @@ color: #101010;
 .rs-project.style2 .owl-nav .owl-next i:before,
 .rs-project.style2 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .rs-project.style2 .owl-nav .owl-next:hover,
 .rs-project.style2 .owl-nav .owl-prev:hover {
@@ -7537,7 +7621,7 @@ color: #101010;
 .rs-project.style3 .project-item .project-content .portfolio-inner .category {
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
   flex: 0 0 100%;
   transform: translateY(0px);
@@ -7557,9 +7641,9 @@ color: #101010;
   background: rgba(0, 0, 0, 0.4);
   opacity: 1;
 }
-.rs-project.style3 .project-item:hover .project-img a img {
+/* .rs-project.style3 .project-item:hover .project-img a img {
   transform: scale(1.2);
-}
+} */
 .rs-project.style3 .project-item:hover .project-content {
   opacity: 1;
 }
@@ -7587,7 +7671,7 @@ color: #101010;
 .rs-project.style3 .owl-nav .owl-next i:before,
 .rs-project.style3 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
 }
 .rs-project.style3 .owl-nav .owl-next:hover,
 .rs-project.style3 .owl-nav .owl-prev:hover {
@@ -7644,9 +7728,9 @@ color: #101010;
 .rs-project.style3.modify1 .owl-nav .owl-next i:before,
 .rs-project.style3.modify1 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-project.style3.modify1 .owl-nav .owl-next:hover,
 .rs-project.style3.modify1 .owl-nav .owl-prev:hover {
@@ -7748,7 +7832,7 @@ color: #101010;
 }
 .rs-project.style5 .project-item .project-content .project-inner .title {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -7850,7 +7934,7 @@ color: #101010;
 .rs-project.style6 .project-item .project-content .category {
   font-size: 16px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-project.style6 .project-item .project-content .category a {
@@ -7865,7 +7949,7 @@ color: #101010;
 }
 .rs-project.style6.modify1 .project-item .project-img .plus-icon i {
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
 }
 .rs-project.style6.modify1 .project-item .project-content {
@@ -7890,7 +7974,7 @@ color: #101010;
 .rs-project.style6.modify2 .project-item .project-img .plus-icon i {
   font-size: 24px;
   line-height: 50px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
 }
 .rs-project.style6.modify2 .project-item .project-content {
@@ -7938,7 +8022,7 @@ color: #101010;
 .rs-project.style6.modify3 .project-item .project-content .category {
   font-size: 16px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-project.style6.modify3 .project-item .project-content .category a {
@@ -7986,7 +8070,7 @@ color: #101010;
 .rs-project.style7 .project-item .project-content .category {
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
 }
 .rs-project.style7 .project-item .project-content .category a {
@@ -8055,7 +8139,7 @@ color: #101010;
 }
 .rs-project.style8 .project-item .project-content .project-inner .title {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -8104,7 +8188,7 @@ color: #101010;
 }
 .rs-project.style8 .project-item:hover .project-content .project-inner .title {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 5px;
 }
@@ -8173,7 +8257,7 @@ color: #101010;
 .rs-project.style9 .project-item .project-content .project-inner .category {
   font-size: 16px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 600;
   display: block;
   margin-bottom: 25px;
 }
@@ -8254,7 +8338,7 @@ color: #101010;
 .rs-project.style10 .project-item .project-content .category {
   font-size: 16px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-project.style10 .project-item .project-content .category a {
   color: #ffffff;
@@ -8299,7 +8383,7 @@ color: #101010;
 .rs-project.style10 .owl-nav .owl-next i:before,
 .rs-project.style10 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
 }
 .rs-project.style10 .owl-nav .owl-next:hover,
@@ -8393,7 +8477,7 @@ color: #101010;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03228f', endColorstr='#0b70e1', GradientType=1);
   transition: 0.4s;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 6px 20px;
   display: block;
 }
@@ -8418,7 +8502,7 @@ color: #101010;
 }
 .rs-blog .blog-item .blog-content .blog-meta .admin {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-left: 25px;
 }
@@ -8473,7 +8557,7 @@ color: #101010;
 }
 .rs-blog.style2 .blog-item .blog-content .blog-meta .admin {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-left: 25px;
 }
@@ -8541,7 +8625,7 @@ color: #101010;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#03228f', endColorstr='#0b70e1', GradientType=1);
   transition: 0.4s;
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 600;
   padding: 6px 20px;
   display: block;
 }
@@ -8577,7 +8661,7 @@ color: #101010;
 }
 .rs-inner-blog .blog-item .blog-content .blog-meta .btm-cate li .blog-date {
   display: inline-block;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 13px;
   color: #999;
 }
@@ -8606,7 +8690,7 @@ color: #101010;
 .rs-inner-blog .blog-item .blog-content .blog-desc {
   font-size: 15px;
   line-height: 27px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-bottom: 20px;
 }
@@ -8694,7 +8778,7 @@ color: #101010;
 .rs-inner-blog .widget-area .recent-posts .recent-post-widget .post-desc a {
   font-size: 15px;
   line-height: 22px;
-  font-weight: 500;
+  font-weight: 600;
   color: #0a0a0a;
   display: block;
 }
@@ -8723,7 +8807,7 @@ color: #101010;
 }
 .rs-inner-blog .widget-area .categories li a {
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   color: #101010;
 }
 .rs-inner-blog .widget-area .categories li a:hover {
@@ -8762,7 +8846,7 @@ color: #101010;
   margin-right: 4px;
 }
 .rs-inner-blog .blog-details .blog-full .single-post-meta .Post-cate .tag-line a {
-  font-weight: 500;
+  font-weight: 600;
   color: #555;
   font-size: 14px;
 }
@@ -9001,7 +9085,7 @@ color: #101010;
   padding: 61px 0px 10px 0px;
   font-size: 17px;
   line-height: 33px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.main-home .testi-item .author-desc .desc .quote {
   width: 50px;
@@ -9113,7 +9197,7 @@ color: #101010;
   padding: 73px 0px 10px 0px;
   font-size: 17px;
   line-height: 33px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.main-home.style4 .testi-item .author-desc .desc .quote {
   top: 44px;
@@ -9168,7 +9252,7 @@ color: #101010;
 .rs-testimonial.style3 .testi-item .author-desc .desc {
   font-size: 18px;
   line-height: 31px;
-  font-weight: 500;
+  font-weight: 600;
   color: #ffffff;
   margin-bottom: 0;
 }
@@ -9261,7 +9345,7 @@ color: #101010;
 .rs-testimonial.style4 .testi-item .testi-content .testi-information .testi-name {
   color: #000000;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.style4 .testi-item .testi-content .testi-information .testi-title {
   display: block;
@@ -9296,9 +9380,9 @@ color: #101010;
 .rs-testimonial.style4 .owl-nav .owl-next i:before,
 .rs-testimonial.style4 .owl-nav .owl-prev i:before {
   content: "\f111";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.style4 .owl-nav .owl-next:hover,
 .rs-testimonial.style4 .owl-nav .owl-prev:hover {
@@ -9403,7 +9487,7 @@ color: #101010;
 .rs-testimonial.style6 .testi-item .item-content-basic p {
   color: #272525;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
   line-height: 35px;
 }
@@ -9468,7 +9552,7 @@ color: #101010;
 .rs-testimonial.style7 .testi-main .testi-item .testi-content .testi-information p {
   color: #102B3E;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
   font-style: italic;
   line-height: 35px;
 }
@@ -9502,9 +9586,9 @@ color: #101010;
 .rs-testimonial.style7 .owl-nav .owl-next i:before,
 .rs-testimonial.style7 .owl-nav .owl-prev i:before {
   content: "\f115";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.style7 .owl-nav .owl-next:hover,
 .rs-testimonial.style7 .owl-nav .owl-prev:hover {
@@ -9518,7 +9602,7 @@ color: #101010;
 .rs-testimonial.style7 .owl-nav .owl-next i:before {
   content: "\f114";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.style7 .owl-nav .owl-prev {
   right: unset;
@@ -9527,7 +9611,7 @@ color: #101010;
 .rs-testimonial.style7 .owl-nav .owl-prev i:before {
   content: "\f115";
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.style8 .testi-item {
   background: #fff;
@@ -9540,7 +9624,7 @@ color: #101010;
 .rs-testimonial.style8 .testi-item .item-content-basic p {
   font-size: 20px;
   line-height: 35px;
-  font-weight: 500;
+  font-weight: 600;
   color: #101010;
   margin-bottom: 32px;
   padding-top: 20px;
@@ -9565,7 +9649,7 @@ color: #101010;
 .rs-testimonial.style8 .testi-item .testi-information .testi-content .testi-title {
   font-size: 16px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-bottom: 0;
 }
@@ -9631,7 +9715,7 @@ color: #101010;
 }
 .rs-testimonial.style9 .testi-item .item-content p {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 32px;
   color: #454545;
 }
@@ -9729,9 +9813,9 @@ color: #101010;
 }
 .rs-testimonial.style10 .testi-top-section .slick-part .slick-arrow:before {
   content: "\f115";
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .rs-testimonial.style10 .testi-top-section .slick-part .slick-arrow.slick-prev {
   right: 27%;
@@ -9749,14 +9833,14 @@ color: #101010;
   font-size: 15px;
   line-height: 26px;
   color: #454545;
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
 }
 .rs-shop-part .from-control {
   float: right;
   font-size: 15px;
   color: #454545;
-  font-weight: 500;
+  font-weight: 600;
   vertical-align: top;
   padding: 10px;
   border: 1px solid #ced4da;
@@ -9777,7 +9861,7 @@ color: #101010;
 .rs-shop-part .product-list .image-product .overley i:before {
   font-size: 30px;
   color: #ffffff;
-  font-weight: 500;
+  font-weight: 600;
   background: #106eea;
   border: none ;
   padding: 8px 10px 8px;
@@ -10003,7 +10087,7 @@ color: #101010;
   border-radius: 100%;
   border: 1px solid #ddd;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
   height: 20px;
   width: 20px;
   line-height: 17px;
@@ -10273,20 +10357,20 @@ color: #101010;
 .rs-my-account .rs-login .last-password a {
   font-size: 15px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #106eea;
 }
 .rs-my-account .rs-login p {
   font-size: 15px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   margin-bottom: 14px;
 }
 .rs-my-account .rs-login p a {
   font-size: 15px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #106eea;
 }
 /*------------------------------------
@@ -10393,7 +10477,7 @@ color: #101010;
   background-image: linear-gradient(90deg, #03228f 0%, #0e73e4 100%);
   border-radius: 50%;
   padding: 15px 28px 15px;
-  font-family: Arial, Verdana, sans-serif;
+  font-family: 'Prompt', sans-serif;
   font-size: 0;
   border: none;
 }
