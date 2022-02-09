@@ -2036,7 +2036,7 @@ blockquote cite:before {
 .sec-title2 .desc {
   font-size: 18px;
   line-height: 31px;
-  font-weight: 500;
+  font-weight: 800;
   /* font-weight: 500; */
   /* 454545 */
   color: #000000;
@@ -2044,6 +2044,7 @@ blockquote cite:before {
   margin: 13px auto 0;
 }
 .sec-title2 .desc.desc-text {
+  
   max-width: 540px;
 }
 .sec-title2 .desc.white-color {
@@ -2054,6 +2055,7 @@ blockquote cite:before {
   margin: 0;
 }
 .sec-title2 .desc.desc3 {
+  
   max-width: 930px;
 }
 .sec-title2 .desc-big {
@@ -3612,7 +3614,7 @@ body .search-modal .close:hover {
 }
 .rs-about.style5 .about-bg {
   background-color: #ffffff;
-  opacity: 0.8;
+  opacity: 1;
 }
 .rs-about.style5 .about-bg .about-animate {
   position: absolute;
