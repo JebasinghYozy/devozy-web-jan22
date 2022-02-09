@@ -183,6 +183,9 @@
 /* -----------------------------------
     01. General CSS
 -------------------------------------*/
+.mydevbor{
+  border: 2px dashed blue;
+}
 html,
 body {
   font-size: 16px;
@@ -825,6 +828,8 @@ blockquote cite:before {
   border-radius: 50%;
   background: #f2541b;
 }
+
+
 .rs-carousel.nav-style1 {
   position: relative;
 }
@@ -7451,6 +7456,8 @@ color: #101010;
   left: unset;
 }
 .rs-project.style2 .project-item {
+  background-color: aliceblue;
+  border: 1px gray solid;
   position: relative;
   overflow: hidden;
 }
