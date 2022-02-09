@@ -10926,9 +10926,7 @@ color: #101010;
   -webkit-transition: all .2s ease-in-out;
   transition: all .2s ease-in-out;
 }
-.myblack{
-  background-color: black;
-}
+
 .btn_wrap:hover {
   /* transition-delay: .4s; */
   color: #F1F5FB;
@@ -10938,7 +10936,7 @@ color: #101010;
           transform: scale(1.1)
 }
 
-span {
+.span1 {
   position: absolute;
   z-index: 99;
   width: 240px;
