@@ -7467,7 +7467,11 @@ color: #101010;
   
 }
 
-
+#contact.sticky {
+  position: right; /* Safari */
+  position: sticky;
+  top: 0;
+}
 
 /* .rs-project.style2 .project-item .project-img:hover img{
   
@@ -10864,7 +10868,7 @@ color: #101010;
 --------------------------*/
 #scrollUp {
   text-align: center;
-  bottom: 40px;
+  top:190px;
   cursor: pointer;
   display: none;
   position: fixed;
@@ -10895,7 +10899,7 @@ color: #101010;
   background: #ff7045;
 }
 #scrollUp.purple-color i {
-  background: #787cf2;
+  background: green;
 }
 /* ------------------------------------
     38. Preloader CSS
