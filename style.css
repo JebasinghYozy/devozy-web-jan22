@@ -10868,7 +10868,7 @@ color: #101010;
 --------------------------*/
 #scrollUp {
   text-align: center;
-  top:190px;
+  top:90px;
   cursor: pointer;
   display: none;
   position: fixed;
