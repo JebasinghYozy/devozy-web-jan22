@@ -11327,7 +11327,7 @@ table > tfoot > tr > th,
 table > thead > tr > td,
 table > tbody > tr > td,
 table > tfoot > tr > td {
-  text-align: center;
+  text-align: left;
   padding: 14px;
   line-height: 1.42857143;
   vertical-align: top;
@@ -11338,7 +11338,7 @@ table > tfoot > tr > td {
   table > thead > tr > td.mystyle,
   table > tbody > tr > td.mystyle,
   table > tfoot > tr > td.mystyle {
-    text-align: left;
+    text-align: center;
     padding: 14px;
     line-height: 1.42857143;
     vertical-align: top;
