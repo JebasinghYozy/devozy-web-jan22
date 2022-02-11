@@ -61,28 +61,32 @@
 /* P  */
 
 /* start templatemo features */
+
 .features
 {
+  font-family: 'Prompt', sans-serif;
 	background: #ffffff;
 	border-bottom: 1px solid #ffffff;
 	padding: 60px 0 60px 0;
 }
 .features h2
 {
+  font-family: 'Prompt', sans-serif;
 	font-weight: 400;
 	padding-bottom: 20px;
 }
 .features h3
 {
+  font-family: 'Prompt', sans-serif;
   font-size: 20px;
 	font-weight: 600;
 	padding-bottom: 6px;
 }
 .features p
 {
-  
+  font-family: 'Prompt', sans-serif;
   font-size: 16px;
-	font-weight: 400;
+	font-weight: 500;
 	padding-bottom: 6px;
 }
 .features .fa
@@ -172,7 +176,10 @@
     left: 60px; /*position where enlarged image should offset horizontally */
     
     }
-	
+.tag-line	h5{
+  font-family: 'Prompt', sans-serif;
+  font-weight: 500;
+}
 .Livviche{
    font-family: 'Prompt', sans-serif;
 }
@@ -291,26 +298,32 @@ h6 {
   
 }
 h1 {
+  font-family: 'Prompt', sans-serif;
   font-size: 70px;
   font-weight: 700;
 }
 h2 {
+  font-family: 'Prompt', sans-serif;
   font-size: 36px;
   font-weight: 700;
 }
 h3 {
+  font-family: 'Prompt', sans-serif;
   font-size: 28px;
   font-weight: 700;
 }
 h4 {
+  font-family: 'Prompt', sans-serif;
   font-size: 24px;
   font-weight: 700;
 }
 h5 {
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
-  font-weight: 700;
+  font-weight: 500;
 }
 h6 {
+  font-family: 'Prompt', sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
@@ -1982,6 +1995,7 @@ blockquote cite:before {
 }
 
 .sec-title .desc {
+  font-family: 'Prompt', sans-serif;
   font-size: 18px;
   font-weight: 500;
   margin: 0;
@@ -1998,6 +2012,7 @@ blockquote cite:before {
 .sec-title2 {
   position: relative;
 }
+
 .sec-title2 .sub-text {
   margin: 0 0 10px;
   display: block;
@@ -2123,6 +2138,7 @@ blockquote cite:before {
   color: #fff;
 }
 .sec-title2 .desc.desc2 {
+  
   max-width: 700px;
   margin: 0;
 }
@@ -2262,9 +2278,10 @@ blockquote cite:before {
   margin: 0 auto;
 }
 .sec-title5 .desc2 {
-  font-size: 15px;
+  font-family: 'Prompt', sans-serif;
+  font-size: 17px;
   line-height: 26px;
-  font-weight: 500;
+  font-weight: 600;
   color: #454545;
   max-width: 507px;
   margin: 0;
@@ -6337,7 +6354,7 @@ body .search-modal .close:hover {
 }
 .rs-services.style3 .services-item .services-content .services-text .title {
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 600;
   line-height: 30px;
   margin-bottom: 13px;
 }
@@ -7039,6 +7056,7 @@ body .search-modal .close:hover {
   text-decoration: underline;
 }
 .rs-process.style6 .tab-area .nav li .tab-item p {
+  font-family: 'Prompt', sans-serif;
   font-size: 16px;
   line-height: 26px;
   font-weight: 500;
@@ -11111,11 +11129,26 @@ width:100px;
   z-index: 999999;
 }
 .loader .loader-container {
+  width: 40px;
+  height: 40px;
+  background-color: #106eea;  
+  
+  /* background-image: url(img/DEVOZY.png); */
+  /* background-image: url(img/yozy.png); */
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1s infinite ease-in-out;
+  animation: sk-scaleout 1s infinite ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }/*
+.loader .loader-container {
   width: 400px;
   height: 400px;
   background-color: #106eea;  
   
-  /* background-image: url(img/DEVOZY.png); */
+  
   background-image: url(img/yozy.png);
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1s infinite ease-in-out;
@@ -11136,7 +11169,7 @@ width:100px;
   z-index: 1001;  
   background-image: url(img/yozy.png);
 
-  /* background-image: url(assets/images/logo.png); */
+  
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
@@ -11144,7 +11177,7 @@ width:100px;
 }
 .loader.orange-loader .loader-container {
   background: #ff7045;
-}
+} */
 @-webkit-keyframes sk-scaleout {
   0% {
     -webkit-transform: scale(0);
@@ -11329,7 +11362,7 @@ width:100px;
 table {
   background-color: transparent;
   border-collapse: collapse;
-  border-spacing: 0;
+  border-spacing: 0;  
   width: 100%; }
 
 caption {
@@ -11339,6 +11372,7 @@ caption {
   text-align: left; }
 
 th {
+  
   text-align: left; }
 
 table {
@@ -11347,7 +11381,12 @@ table {
   margin-bottom: 20px;
   align-items: center;
   border: 1px solid #ddd; }
-
+.tdfont th{
+  font-family: 'Prompt', sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #ddd;
+}
 table > thead > tr > th,
 table > tbody > tr > th,
 table > tfoot > tr > th,
@@ -11365,13 +11404,31 @@ table > tfoot > tr > td {
   table > thead > tr > td.mystyle,
   table > tbody > tr > td.mystyle,
   table > tfoot > tr > td.mystyle {
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
     text-align: center;
     padding: 14px;
     line-height: 1.42857143;
     vertical-align: top;
     border-top: 0.5px solid #ddd; }
+    .mytdttdbor{
+      border-top: 0.5px solid #ddd;
+    }
 table, th, td {
+  
   border: 0px solid #ddd; }
+ 
+.comparison td{
+  font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+   .myown td{
+    font-family: 'Prompt', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #ddd; }
 
 table > thead > tr > th {
   vertical-align: bottom;
