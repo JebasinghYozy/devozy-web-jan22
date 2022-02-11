@@ -11129,26 +11129,11 @@ width:100px;
   z-index: 999999;
 }
 .loader .loader-container {
-  width: 40px;
-  height: 40px;
-  background-color: #106eea;  
-  
-  /* background-image: url(img/DEVOZY.png); */
-  /* background-image: url(img/yozy.png); */
-  border-radius: 100%;
-  -webkit-animation: sk-scaleout 1s infinite ease-in-out;
-  animation: sk-scaleout 1s infinite ease-in-out;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
- }/*
-.loader .loader-container {
   width: 400px;
   height: 400px;
   background-color: #106eea;  
   
-  
+  /* background-image: url(img/DEVOZY.png); */
   background-image: url(img/yozy.png);
   border-radius: 100%;
   -webkit-animation: sk-scaleout 1s infinite ease-in-out;
@@ -11169,7 +11154,7 @@ width:100px;
   z-index: 1001;  
   background-image: url(img/yozy.png);
 
-  
+  /* background-image: url(assets/images/logo.png); */
   background-repeat: no-repeat;
   background-size: 50%;
   background-position: center;
@@ -11177,7 +11162,7 @@ width:100px;
 }
 .loader.orange-loader .loader-container {
   background: #ff7045;
-} */
+}
 @-webkit-keyframes sk-scaleout {
   0% {
     -webkit-transform: scale(0);
