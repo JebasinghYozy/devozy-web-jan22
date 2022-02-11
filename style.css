@@ -1,4 +1,7 @@
 @charset "utf-8";
+.align-left{
+  text-align: left;
+}
 /** 
 * 
 * -----------------------------------------------------------------------------
@@ -71,17 +74,36 @@
 }
 .features h3
 {
-  font-size: 23px;
-	font-weight: 500;
+  font-size: 20px;
+	font-weight: 600;
 	padding-bottom: 6px;
 }
 .features p
 {
+  
   font-size: 16px;
 	font-weight: 400;
 	padding-bottom: 6px;
 }
 .features .fa
+{
+	background-image: linear-gradient(90deg, #6e71db 41%, #9c9ff9 100%);
+	border-radius: 50%;
+	color: #FFF;
+	font-size: 28px;
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-transition: all 0.4s ease;
+  
+	transition: all 0.4s ease;
+
+}
+/* old */
+/* .features .fa
 {
 	background-image: linear-gradient(90deg, #6e71db 41%, #9c9ff9 100%);
 	border-radius: 50%;
@@ -97,7 +119,7 @@
   
 	transition: all 0.4s ease;
 
-}
+} */
 .features .fa:hover
 {
 	background: #303030;
@@ -2058,7 +2080,7 @@ blockquote cite:before {
 .sec-title2 .heading-line {
   position: relative;
   background-color: #03228F;
-  height: 5px;
+  height: 6px;
   width: 90px;
   border-radius: 30px;
   margin: 20px auto;
@@ -7545,66 +7567,70 @@ color: #101010;
 /* } */
 #slider2
 {
+  
+  outline-color: #000;
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
+  
 }
 #slider3
 {
+  
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 #slider4
 {
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 #slider5
 {
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 #slider6
 {
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 #slider7
 {
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 #slider8
 {
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 #slider9
 {
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 #slider10
 {
   margin-left: 200px;
   display: none;
   width: 800px;
-  height: 600px;  
+  height: 600px;  cursor: pointer;
 }
 .rs-project.style2 .project-item .project-content {
   position: absolute;
