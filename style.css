@@ -2,6 +2,12 @@
 .align-left{
   text-align: left;
 }
+.text-justify{
+  text-align: justify;
+}
+.navy-blue{
+  color: #000080;
+}
 /** 
 * 
 * -----------------------------------------------------------------------------
@@ -61,7 +67,10 @@
 /* P  */
 
 /* start templatemo features */
-
+#footer_image{
+height: 80% !important;
+width: 60% !important;
+}
 .features
 {
   font-family: 'Prompt', sans-serif;
@@ -341,6 +350,9 @@ h6 {
 }
 .pr-220 {
   padding-right: 220px;
+}
+#introImage{
+  height: 450px !important;
 }
 .offwrap {
   cursor: url(assets/images/close.png), auto;
@@ -633,7 +645,7 @@ ul {
   background-size: cover;
 }
 .bg25 {
-  background: url(assets/images/bg/skill-bg16.jpg);
+  background-color:#ffffff ;
   background-position: center left;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2403,7 +2415,7 @@ blockquote cite:before {
 }
 .full-width-header .rs-header .topbar-area {
   padding-top: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 .full-width-header .rs-header .topbar-area .rs-contact-info .contact-part {
   display: inline-block;
@@ -3748,10 +3760,11 @@ body .search-modal .close:hover {
 .rs-about.home14-about-style .about-bottom-section .addon-services {
   margin: -88px 26px 0px -20px;
   padding: 15px 20px 15px 20px;
-  background-image: linear-gradient(120deg, #1642fd 0%, #b12bf3 100%);
+  background-color: #ffffff;
   border-radius: 10px 10px 10px 10px;
   display: flex;
   align-items: center;
+  border: 1px solid lightskyblue;
 }
 .rs-about.home14-about-style .about-bottom-section .addon-services .icon-images img {
   max-width: unset;
@@ -3767,6 +3780,7 @@ body .search-modal .close:hover {
   line-height: 1.4em;
   color: #ffffff;
   margin: 0 0 10px;
+  justify-content: center !important;
 }
 .rs-about .software-img img {
   max-width: 600px;
@@ -4135,7 +4149,12 @@ body .search-modal .close:hover {
   margin-right: 0;
 }
 .rs-banner.style9 {
-  background: url(assets/images/banner/style4/banner-bg.png);
+  
+  background: url(assets/images/banner/style4/banner-bg1.png);
+  
+  /* background: url(assets/images/banner/style4/banner-bg12.jpg); */
+  /* background: url(assets/images/banner/style4/YOZY-BANNER-3.png); */
+  
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -4143,7 +4162,11 @@ body .search-modal .close:hover {
   z-index: 1;
 }
 .rs-banner.style9 .banner-content {
+
   padding: 300px 0 235px;
+  /* padding: 500px 0 235px; */
+  
+
 }
 .rs-banner.style9 .banner-content .sub-text {
   font-size: 18px;
@@ -10584,6 +10607,7 @@ color: #101010;
   padding: 92px 0 65px;
 }
 .rs-footer .footer-top .footer-logo img {
+  
   height: 40px;
 }
 .rs-footer .footer-top .widget-title {
@@ -10800,6 +10824,7 @@ color: #101010;
   padding: 92px 0 65px;
 }
 .rs-footer.style2 .footer-top .footer-logo img {
+  
   height: 40px;
 }
 .rs-footer.style2 .footer-top .widget-title {
