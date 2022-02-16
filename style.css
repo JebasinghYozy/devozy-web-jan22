@@ -2372,6 +2372,10 @@ blockquote cite:before {
   letter-spacing: 2px;
   margin-bottom: 20px;
 }
+.title2{
+  font-size: 38px;
+  color: #FFF;
+}
 .check-square li {
   position: relative;
   padding-left: 17px;
