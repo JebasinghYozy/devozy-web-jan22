@@ -2118,6 +2118,14 @@ blockquote cite:before {
   border-radius: 30px;
   margin: 20px auto;
 }
+.underline{
+  position: relative;
+  background-color: #0a0a0a;
+  height: 2px;
+  width:200px;
+  /* border-radius: 30px;  */
+  margin: 20px auto;
+}
 .sec-title2 .heading-line:before {
   background-color: #1940AA;
   content: '';
@@ -2461,7 +2469,7 @@ blockquote cite:before {
   margin-bottom: 0;
 }
 .full-width-header .rs-header .topbar-area .rs-contact-info .contact-part .contact-info a {
-  color: #106eea;
+  color: #101111;
   font-size: 14px;
 }
 .full-width-header .rs-header .topbar-area .rs-contact-info .contact-part .contact-info a:hover {
@@ -3392,6 +3400,7 @@ blockquote cite:before {
   z-index: 999;
 }
 .full-width-header .mobile-menu {
+  background-color: #FFF;
   display: none;
 }
 .full-width-header .mobile-menu .mobile-logo {
@@ -3611,6 +3620,7 @@ body .search-modal .close:hover {
   width: 100%;
   top: 0;
   position: relative;
+  
 }
 @-webkit-keyframes sticky-animation {
   0% {
@@ -3819,7 +3829,7 @@ body .search-modal .close:hover {
   padding-bottom: 40px;
 }
 .rs-banner.style2 {
-  background: url(assets/images/banner/banner-2.jpg);
+  background: url(assets/images/banner/style4/banner-b1.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left top;
@@ -3856,10 +3866,12 @@ body .search-modal .close:hover {
   background-image: linear-gradient(100deg, #03228f 34%, #0e73e4 100%);
   border-radius: 0px 0px 0px 270px;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  
   padding: 300px 0px 270px 0px;
   position: relative;
 }
 .rs-banner.style3 .banner-content {
+  
   position: relative;
   z-index: 1;
 }
@@ -3917,12 +3929,14 @@ body .search-modal .close:hover {
   z-index: 2;
 }
 .rs-banner.style3.modify1 .images-part img {
+  
   max-width: 900px;
 }
 .rs-banner.style3.modify2 {
   background: unset;
   border-radius: unset;
   padding: 130px 0px 100px 0px;
+  /* padding: 10% 0px 70% 0px; */
 }
 .rs-banner.style3.modify2 .banner-content .title {
   color: #101010;
@@ -4154,10 +4168,10 @@ body .search-modal .close:hover {
 }
 .rs-banner.style9 {
   
-  background: url(assets/images/banner/style4/banner-bg1.png);
+  background: url(assets/images/banner/style4/banner-b1.png);
   
-  /* background: url(assets/images/banner/style4/banner-bg12.jpg); */
-  /* background: url(assets/images/banner/style4/YOZY-BANNER-3.png); */
+  /* background: url(assets/images/banner/style4/banner-bg1.jpg); */
+  
   
   background-repeat: no-repeat;
   background-position: center center;
@@ -4167,7 +4181,7 @@ body .search-modal .close:hover {
 }
 .rs-banner.style9 .banner-content {
 
-  padding: 300px 0 235px;
+  padding: 300px 0 235px ;
   /* padding: 500px 0 235px; */
   
 
@@ -4175,10 +4189,26 @@ body .search-modal .close:hover {
 .rs-banner.style9 .banner-content .sub-text {
   font-size: 18px;
   line-height: 28px;
-  font-weight: 500;
+  font-weight: 500; 
   color: #ffffff;
   display: block;
   margin-bottom: 10px;
+}
+u{
+  text-decoration:underline;
+
+ }
+ul#menu12 li{
+  font-size: 38px;
+  
+  font-weight: 700;
+  
+  margin: 0;
+  padding: 0 0 0 0;
+  display:inline;
+}
+.text-success1{
+  color: #5af03c;
 }
 .rs-banner.style9 .banner-content .title {
   font-size: 58px;
@@ -4192,7 +4222,14 @@ body .search-modal .close:hover {
   line-height: 73px;
   font-weight: 700;
   color: #080401;
-  margin-bottom: 25px;
+  /* margin-bottom: 25px; */
+}
+.rs-banner.rs-banner.style3.modify2 .banner-content .title1 {
+  font-size: xx-large;
+  line-height: 73px;
+  font-weight: 700;
+  color: #080401;
+  /* margin-bottom: 25px; */
 }
 .rs-banner.style9 .banner-content .title-small {
   font-size: 30px;
@@ -4208,12 +4245,12 @@ body .search-modal .close:hover {
   font-weight: 700;
   color: #ffffff;
  
-  margin-top: 10px;
+  /* margin-top: 10px; */
 }
 
 .rs-banner.style9 .banner-content .title-small-gen1 {
-  font-size: 25px;
-  line-height: 73px;
+  font-size: 18px;
+  /* line-height: 73px; */
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 0px;
@@ -4268,7 +4305,7 @@ body .search-modal .close:hover {
   bottom: 4%;
 }
 .rs-banner.style10 {
-  background-image: url(assets/images/banner/banner14.jpg);
+  background-image: url(assets/images/banner/style4/banner-b1.png);
   background-repeat: no-repeat;
 }
 .rs-banner.style10 .banner-content {
@@ -11596,6 +11633,76 @@ table > tbody > tr.danger > th,
 table > tfoot > tr.danger > th {
   background-color: #f2dede; }
 
+  @media screen and (min-width: 601px) {
+    .rstable{
+      width: auto;
+      margin-left: 50px;     
+      margin-right: 50px; 
+      font-size: 18px;
+      border: 1px black solid;
+      
+    }
+    .rstable td,th{
+      border: 0.5px black solid;
+    }
+    .rstable span{
+      font-size: 7px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .rstable {
+      font-size: 8px;
+      border: 1px black solid;
+    }
+    .rstable span{
+      font-size: 3px;
+    }
+    .rstable td,th{
+      border: 1px black solid;
+    }
+  }
+
+  .bg-d2d2d2{
+    background-color: #d2d2d2;
+  }
+/* Comparsion table */
+  @media screen and (min-width: 601px) {
+    .rstablecomparsion{
+      width: auto;
+      
+      margin-left: 100px;
+      margin-top: 50px;
+      font-size: 18px;
+      border: 0px black solid;
+      
+    }
+    .rstablecomparsion td,th{
+      
+      padding: 14px;
+      border: 0 px black solid;
+    }
+    .rstablecomparsion span{
+      font-size: 7px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .rstablecomparsion {
+      font-size: 8px;
+      border: 1px black solid;
+    }
+    .rstablecomparsion span{
+      font-size: 3px;
+    }
+    .rstablecomparsion td,th{
+      border: 1px black solid;
+    }
+  }
+
+
 
 @keyframes rain-line {
   0% {
@@ -11747,4 +11854,5 @@ table > tfoot > tr.danger > th {
     opacity: 1;
     transform: none;
   }
+}
 }
