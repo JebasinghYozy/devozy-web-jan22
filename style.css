@@ -13801,23 +13801,26 @@ table>tfoot>tr.danger>th {
 }
 
 @media screen and (min-width: 601px) {
+
   .rstable {
     width: auto;
     margin-left: 50px;
     margin-right: 50px;
     font-size: 16px;
-    
+
     border: 1px black solid;
 
   }
-  .rstable th{
+
+  .rstable th {
     text-align: left;
     font-weight: 800;
     font-size: 18px;
     border: 0.5px black solid;
     /* border: 1px black solid; */
   }
-  .rstable td{
+
+  .rstable td {
     border: 0.5px black solid;
   }
 
@@ -13826,8 +13829,18 @@ table>tfoot>tr.danger>th {
   }
 }
 
+
 /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 600px) {
+  
+
+  .rs-Challenges1 {
+    margin-top: 50px;
+  }
+.rsbanner{
+  /* width: auto; */
+  height: 180px;
+}
   .rstable {
     font-size: 8px;
     border: 1px black solid;
@@ -13857,10 +13870,9 @@ table>tfoot>tr.danger>th {
     border: 1px black solid;
   }
 
-  
 
-  .rstablecomparsion td
-  {
+
+  .rstablecomparsion td {
     border: 1px black solid;
   }
 }
@@ -13874,11 +13886,12 @@ table>tfoot>tr.danger>th {
     vertical-align: top;
     border: 0px black solid;
   }
-  .rstablecomparsion th
-  {
+
+  .rstablecomparsion th {
     font-weight: 700;
     /* border: 1px black solid; */
   }
+
   .rstablecomparsion td {
 
     text-align: left;
@@ -13934,7 +13947,7 @@ table>tfoot>tr.danger>th {
   .rstableprice .btn1 a {
     display: none;
   }
-  
+
 
   .rstableprice .btn a {
     color: #FFF;
@@ -13981,7 +13994,7 @@ table>tfoot>tr.danger>th {
     text-align: center;
     /* border: 1px black solid; */
   }
-  
+
   .rstableprice .btn a {
     display: block;
     color: #FFF;
@@ -14042,23 +14055,26 @@ table>tfoot>tr.danger>th {
 
 
 @media screen and (min-width: 700px) and (max-width:1024px) {
-  .rsbanner h3{
-    font-size: 20px;  
-   }
-   .rsbanner .title-small-gen1{
-   font-size: 10px;
-   font-weight: 600;
-   }
+  .rsbanner h3 {
+    font-size: 20px;
+  }
+
+  .rsbanner .title-small-gen1 {
+    font-size: 10px;
+    font-weight: 600;
+  }
 }
+
 @media screen and (max-width: 600px) {
 
-.rsbanner h3{
- font-size: 17px;  
-}
-.rsbanner .title-small-gen1{
-font-size: 10px;
-font-weight: 600;
-}
+  .rsbanner h3 {
+    font-size: 17px;
+  }
+
+  .rsbanner .title-small-gen1 {
+    font-size: 10px;
+    font-weight: 600;
+  }
 
 
 }
@@ -14067,13 +14083,13 @@ font-weight: 600;
 @media screen and (max-width: 1024px) {
 
   .rs-project.style2 .project-item .project-content {
-display: none;
-}
+    display: none;
+  }
 
 }
 
 
-.text-purple{
+.text-purple {
   color: #787cf2;
 }
 
