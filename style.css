@@ -13805,13 +13805,19 @@ table>tfoot>tr.danger>th {
     width: auto;
     margin-left: 50px;
     margin-right: 50px;
-    font-size: 18px;
+    font-size: 16px;
+    
     border: 1px black solid;
 
   }
-
-  .rstable td,
-  th {
+  .rstable th{
+    text-align: left;
+    font-weight: 800;
+    font-size: 18px;
+    border: 0.5px black solid;
+    /* border: 1px black solid; */
+  }
+  .rstable td{
     border: 0.5px black solid;
   }
 
@@ -13851,10 +13857,10 @@ table>tfoot>tr.danger>th {
     border: 1px black solid;
   }
 
+  
 
-
-  .rstablecomparsion td,
-  th {
+  .rstablecomparsion td
+  {
     border: 1px black solid;
   }
 }
@@ -13868,9 +13874,12 @@ table>tfoot>tr.danger>th {
     vertical-align: top;
     border: 0px black solid;
   }
-
-  .rstablecomparsion td,
-  th {
+  .rstablecomparsion th
+  {
+    font-weight: 700;
+    /* border: 1px black solid; */
+  }
+  .rstablecomparsion td {
 
     text-align: left;
     font-family: 'Prompt', sans-serif;
@@ -13925,6 +13934,7 @@ table>tfoot>tr.danger>th {
   .rstableprice .btn1 a {
     display: none;
   }
+  
 
   .rstableprice .btn a {
     color: #FFF;
@@ -13971,7 +13981,7 @@ table>tfoot>tr.danger>th {
     text-align: center;
     /* border: 1px black solid; */
   }
-
+  
   .rstableprice .btn a {
     display: block;
     color: #FFF;
@@ -14054,18 +14064,18 @@ font-weight: 600;
 }
 
 
+@media screen and (min-width: 1024px) {
+
+.rscreenshot.project-content {
+display: none;
+}
+
+}
 
 
-
-
-
-
-
-
-
-
-
-
+.text-purple{
+  color: #787cf2;
+}
 
 
 @keyframes rain-line {
