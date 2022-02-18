@@ -14064,9 +14064,9 @@ font-weight: 600;
 }
 
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
-.rscreenshot.project-content {
+  .rs-project.style2 .project-item .project-content {
 display: none;
 }
 
