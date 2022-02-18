@@ -13825,6 +13825,8 @@ table>tfoot>tr.danger>th {
   .rstable {
     font-size: 8px;
     border: 1px black solid;
+    margin-left: 0px;
+
   }
 
   .rstable span {
@@ -13984,7 +13986,7 @@ table>tfoot>tr.danger>th {
     top: 5px;
   }
 
-  
+
 
   .rstableprice .btn a:hover {
 
@@ -13993,6 +13995,77 @@ table>tfoot>tr.danger>th {
   }
 
 }
+
+/* Technology */
+@media screen and (min-width: 601px) {
+
+  .rstabletech img {
+    margin-left: 30px;
+    width: 100px;
+
+  }
+
+}
+
+/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+
+@media screen and (max-width: 600px) {
+  .rstabletech {
+    font-size: 8px;
+    border: 1px black solid;
+    margin-left: 0px;
+
+  }
+
+  .rstabletech img {
+    margin-left: 3px;
+    width: 50px;
+
+  }
+
+  .rstabletech td,
+  th {
+    margin-left: 0px;
+    /* border: 1px black solid; */
+  }
+}
+
+
+@media screen and (min-width: 700px) and (max-width:1024px) {
+  .rsbanner h3{
+    font-size: 20px;  
+   }
+   .rsbanner .title-small-gen1{
+   font-size: 10px;
+   font-weight: 600;
+   }
+}
+@media screen and (max-width: 600px) {
+
+.rsbanner h3{
+ font-size: 17px;  
+}
+.rsbanner .title-small-gen1{
+font-size: 10px;
+font-weight: 600;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @keyframes rain-line {
